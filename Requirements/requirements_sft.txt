@@ -1,0 +1,16 @@
+accelerate==1.8.1
+datasets==3.6.0
+dreamsim==0.2.1
+editdistance==0.8.1
+numpy==2.0.2
+openai==1.90.0
+pdfCropMargins==2.2.1
+peft==0.15.2
+pillow==11.2.1
+poppler-utils==0.1.0
+PyMuPDF==1.26.1
+torch==2.7.0
+transformers==4.53.0
+triton==3.3.0
+trl @ git+https://github.com/huggingface/trl.git@6a6d4345c9e0ded5bdcfc67ca2d8d20ecb75d309
+vllm==0.9.2

@@ -1,0 +1,6 @@
+datikz_v4_eval.json,Qwen2.5-3B
+datikz_v4_eval.json,TikZilla-3B
+datikz_v4_eval.json,TikZilla-3B-RL
+datikz_v4_eval.json,Qwen3-8B-Base
+datikz_v4_eval.json,TikZilla-8B
+datikz_v4_eval.json,TikZilla-8B-RL

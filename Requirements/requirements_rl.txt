@@ -1,0 +1,9 @@
+accelerate==1.8.1
+deepspeed==0.16.4
+numpy==1.26.4
+PyMuPDF==1.26.3
+torch==2.5.1
+transformers==4.53.2
+triton==3.1.0
+trl @ git+https://github.com/huggingface/trl.git@6a6d4345c9e0ded5bdcfc67ca2d8d20ecb75d309
+vllm==0.7.0
