@@ -39,19 +39,23 @@ class FeatureWrapper(nn.Module):
         with torch.inference_mode():
             return self.model.get_image_features(pixel_values.to(self.device, self.dtype))
 
+
 def trim(image, bg="white"):
     bg_img = Image.new(image.mode, image.size, bg)
     diff = ImageChops.difference(image, bg_img)
     return image.crop(diff.getbbox()) if diff.getbbox() else image
+
 
 def expand(image, size, do_trim=False, bg="white"):
     if do_trim:
         image = trim(image, bg=bg)
     return ImageOps.pad(image, (size, size), color=bg, method=Image.Resampling.LANCZOS)
 
+
 def remove_alpha(image, bg):
     bg_img = Image.new("RGBA", image.size, bg)
     return Image.alpha_composite(bg_img, image.convert("RGBA")).convert("RGB")
+
 
 def load(image, bg="white", timeout=None):
     image = Image.open(image)

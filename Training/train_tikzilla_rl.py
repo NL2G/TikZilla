@@ -27,10 +27,12 @@ from concurrent.futures import ThreadPoolExecutor
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, AutoModel, AutoProcessor
 from transformers.trainer_utils import get_last_checkpoint
 
+
 os.environ["PATH"] = f"{os.path.expanduser('/home/hpc/<USERNAME>/texlive/bin/x86_64-linux')}:" + os.environ["PATH"]
 PDFTOPPM = "/home/hpc/<USERNAME>/poppler-24.07.0/build/utils/pdftoppm"
 GS_BIN = "/home/hpc/<USERNAME>/ghostscript-10.03.0/bin"
 os.environ["PATH"] = f"{GS_BIN}:" + os.environ["PATH"]
+
 
 def arg_parser():
     parser = argparse.ArgumentParser(description="Finetune LLMs on TikZ code (GRPO).")
@@ -63,6 +65,7 @@ def arg_parser():
     parser.add_argument('--tmp_dir', type=str, required=True, help="Path to tmp dir.")
     return parser.parse_args()
 
+
 _DOC_RE = re.compile(
     r"""
     (?P<prefix>\\documentclass\s*\[[^\]]*?\btikz\b[^\]]*?\]\s*\{standalone\})
@@ -74,6 +77,7 @@ _DOC_RE = re.compile(
     re.DOTALL | re.VERBOSE
 )
 
+
 def _extract_tikz_doc(text):
     if not isinstance(text, str): 
         return None
@@ -82,6 +86,7 @@ def _extract_tikz_doc(text):
     if not m: return None
     return cleaned[m.start("prefix"):m.end()].strip()
 
+
 def crop_pdf_out_of_proc(pdf_in, pdf_out):
     use_gs = which("gs") is not None
     cmd = [sys.executable, "-m", "pdfCropMargins"]
@@ -89,6 +94,7 @@ def crop_pdf_out_of_proc(pdf_in, pdf_out):
         cmd += ["-c", "gb"]
     cmd += ["-p", "0", "-a", "-1", "-o", str(pdf_out), str(pdf_in)]
     subprocess.run(cmd, cwd=Path(pdf_in).parent, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=False)
+
 
 def process_figure_in_dir(work_dir, figure_id, tikz_code):
     work_dir.mkdir(parents=True, exist_ok=True)
@@ -130,9 +136,11 @@ def process_figure_in_dir(work_dir, figure_id, tikz_code):
     except Exception:
         return None
 
+
 _DETIKZIFY_SCORER = None
 _CLIP_SCORER = None
 _DREAMSIM_SCORER = None
+
 
 def make_image_reward(work_dir, reward_model_dir, backend):
     png_cache = Path(work_dir) / "cache" / "tikz_png"
@@ -254,12 +262,14 @@ def make_image_reward(work_dir, reward_model_dir, backend):
     image_similarity_reward.__name__ = "image_similarity_reward"
     return image_similarity_reward
 
+
 def _file_cache_key(path):
     try:
         st = os.stat(path)
         return f"{path}|{int(st.st_mtime)}|{st.st_size}"
     except Exception:
         return f"{path}|-1|-1"
+
 
 class BatchedDeTikZifyScoreFast:
     def __init__(self, model_name, device=None, batch_size=16, cache_size=4096, parity_mode=True, gt_feat_dir=None):
@@ -383,6 +393,7 @@ class BatchedDeTikZifyScoreFast:
                 s = 0.0
             scores.append(s)
         return scores
+
 
 class BatchedClipScoreImgFast:
     def __init__(self, model_name, device=None, batch_size=32, cache_size=4096, parity_mode=True, gt_feat_dir=None):
@@ -508,16 +519,6 @@ class BatchedClipScoreImgFast:
             scores.append(s)
         return scores
 
-class DreamSim:
-    def __init__(self, model_name="ensemble", pretrained=True, normalize=True, dtype=None, device=None, cache_dir="models/dreamsim"):
-        self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
-        self.dtype = dtype or (torch.bfloat16 if torch.cuda.is_available() and torch.cuda.is_bf16_supported() else torch.float32)
-        model, processor = dreamsim(
-            dreamsim_type=model_name,
-            pretrained=pretrained,
-            normalize_embeds=normalize,
-            device=self.device,
-            cache_dir=cache_dir)
 
 class BatchedDreamSimScoreFast:
     def __init__(self, model_name="ensemble", device=None, dtype=None, cache_size=4096, cache_dir="models/dreamsim"):
@@ -581,7 +582,8 @@ class BatchedDreamSimScoreFast:
             scores.append(s)
         return scores
 
-def main():
+
+if __name__=="__main__":
     args = arg_parser()
 
     if args.image_reward_backend == "detikzify":
@@ -705,6 +707,3 @@ def main():
     if os.path.isdir(trained_model_path):
         last_checkpoint = get_last_checkpoint(trained_model_path)
     trainer.train(resume_from_checkpoint=last_checkpoint)
-
-if __name__=="__main__":
-    main()

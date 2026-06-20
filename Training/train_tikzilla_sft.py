@@ -9,6 +9,7 @@ from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model
 from Data_Processing.create_tikz_datasets import get_huggingface_dataset
 from transformers.trainer_utils import get_last_checkpoint
 
+
 def arg_parser():
     parser = argparse.ArgumentParser(description="Finetune LLMs on TikZ code.")
     parser.add_argument('--model_id', type=str, default="Qwen2.5-3B", help="ID of the LLM to be finetuned.") #Qwen2.5-3B, Qwen3-8B-Base
@@ -36,7 +37,8 @@ def arg_parser():
     parser.add_argument('--work_dir', type=str, required=True, help="Path to tmpdir.")
     return parser.parse_args()
 
-def main():
+
+if __name__=="__main__":
     args = arg_parser()
 
     if args.compiled:
@@ -143,6 +145,3 @@ def main():
     if os.path.isdir(trained_model_path):
         last_checkpoint = get_last_checkpoint(trained_model_path)
     trainer.train(resume_from_checkpoint=last_checkpoint)
-
-if __name__=="__main__":
-    main()

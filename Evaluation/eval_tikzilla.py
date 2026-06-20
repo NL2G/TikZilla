@@ -16,8 +16,10 @@ from tiktoken.core import Encoding
 from APIs.llms_api import Gpt4Api, Gpt5Api, QwenApi, Llama3_1Api, Qwen3CoderApi
 from Metrics.evaluation_metrics import BatchedClipScore, BatchedClipScoreImg, BatchedDeTikZifyScore, CrystalBLEU, DreamSim, TexEditDistance
 
+
 os.environ["PATH"] = f"{os.path.expanduser('/home/hpc/<USERNAME>/texlive/bin/x86_64-linux')}:" + os.environ["PATH"]
 pdf_to_ppm_path = "/home/hpc/<USERNAME>/poppler-24.07.0/build/utils/pdftoppm"
+
 
 def arg_parser():
     parser = argparse.ArgumentParser()
@@ -25,6 +27,7 @@ def arg_parser():
     parser.add_argument("--model_id", required=True)
     parser.add_argument("--work_dir", required=True)
     return parser.parse_args()
+
 
 def load_text_tiktoken_vocab(filepath):
     mergeable_ranks = {}
@@ -35,6 +38,7 @@ def load_text_tiktoken_vocab(filepath):
             token_id = int(token_id_str)
             mergeable_ranks[token_bytes] = token_id
     return mergeable_ranks
+
 
 def process_figure(png_dir, figure_id, tikz_code):
     with tempfile.TemporaryDirectory() as tmpdirname:
@@ -61,8 +65,8 @@ def process_figure(png_dir, figure_id, tikz_code):
                     if pdf_file.exists() and pdf_file.stat().st_size > 0:
                         compiled = True
                         break
-                except subprocess.SubprocessError as e:
-                    print(f"Subprocess error: {e}")
+                except subprocess.SubprocessError:
+                    continue
 
             if not compiled:
                 return False
@@ -72,8 +76,8 @@ def process_figure(png_dir, figure_id, tikz_code):
                 crop(["-c", "gb", "-p", "0", "-a", "-1", "-o", str(cropped_pdf), str(pdf_file)], quiet=True)
                 if cropped_pdf.exists():
                     pdf_file = cropped_pdf
-            except Exception as e:
-                print(f"Cropping error: {e}")
+            except Exception:
+                pass
             try:
                 subprocess.run(
                     [pdf_to_ppm_path, '-singlefile', '-png', str(pdf_file), str(pdf_file.with_suffix(''))],
@@ -87,16 +91,17 @@ def process_figure(png_dir, figure_id, tikz_code):
 
                 try:
                     image = ImageOps.pad(image, (448, 448), color='white')
-                except Exception as e:
-                    print(f"Image resizing error: {e}")
+                except Exception:
+                    pass
 
                 png_path = png_dir / f"{figure_id}.png"
                 image.save(png_path)
                 return png_path
 
-            except Exception as e:
-                print(f"Rasterization error: {e}")
+            except Exception:
+                pass
     return False
+
 
 def construct_prompt_tikz_code(query):
     structure = """
@@ -106,6 +111,7 @@ def construct_prompt_tikz_code(query):
     Only output valid LaTeX code with no extra text.
     """
     return structure.format(query=query)
+
 
 def remove_latex_comments(line):
     result = []
@@ -126,6 +132,7 @@ def remove_latex_comments(line):
         i += 1
     return ''.join(result).rstrip()
 
+
 def clean_tikz_code(tikz_raw):
     cleaned_lines = []
     for line in tikz_raw.splitlines():
@@ -135,6 +142,7 @@ def clean_tikz_code(tikz_raw):
         cleaned_line = remove_latex_comments(line)
         cleaned_lines.append(cleaned_line)
     return "\n".join(cleaned_lines).strip()
+
 
 def extract_tikz(raw_output):
     first_backslash = raw_output.find('\\')
@@ -147,9 +155,11 @@ def extract_tikz(raw_output):
         return raw_output[first_backslash:end_index+1].strip()
     return raw_output[first_backslash:end_index + len(end_tag)].strip()
 
+
 def save_batch(output_path, batch):
     with open(output_path, "w", encoding="utf-8") as f_out:
         json.dump(batch, f_out, indent=2, ensure_ascii=False)
+
 
 if __name__ == "__main__":
     args = arg_parser()
@@ -216,14 +226,13 @@ if __name__ == "__main__":
                 try:
                     all_new_data_gt.append(json.loads(line))
                 except json.JSONDecodeError as e:
-                    print(f"Error decoding JSON line: {e}")
+                    continue
     
     if os.path.exists(output_file):
         with open(output_file, "r", encoding="utf-8") as f:
             try:
                 processed_queries = json.load(f)
             except json.JSONDecodeError:
-                print(f"Warning: Could not decode existing {output_file}. Starting fresh.")
                 processed_queries = []
     else:
         processed_queries = []
@@ -287,8 +296,8 @@ if __name__ == "__main__":
 
         save_batch(output_file, processed_queries)
 
+    token_efficiency_scores = [len(encoding.encode(tikz_pred)) for tikz_pred in tikz_pred_all]
     crystal_bleu_scores = crystal_bleu_scorer(tikz_pred_all, tikz_gt_all)
-
     clip_scores = clip_scorer_batched(png_path_pred_all, png_path_gt_all)
     clip_scores += [0.0] * (168 - len(clip_scores))
     clip_scores_img = clip_scorer_img_batched(png_path_pred_all, png_path_gt_all)
@@ -303,7 +312,5 @@ if __name__ == "__main__":
     print(f"DreamSim: {np.average(dreamsim_scores)}")
     print(f"TexEditDistance: {np.average(tex_edit_scores)}")
     print(f"Average Score (CLIP, DSim, TED): {(np.average(clip_scores) + np.average(dreamsim_scores) + (1 - np.average(tex_edit_scores))) / 3}")
-
     print(f"Compilation Rate: {(idx - not_compiled_idx) / idx}")
-    token_efficiency_scores = [len(encoding.encode(tikz_pred)) for tikz_pred in tikz_pred_all]
     print(f"Token Efficiency: {np.average(token_efficiency_scores)} +- {np.std(token_efficiency_scores)}")

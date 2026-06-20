@@ -9,6 +9,7 @@ from transformers import Trainer, TrainingArguments
 from datasets import concatenate_datasets, load_from_disk
 from transformers.trainer_utils import get_last_checkpoint
 
+
 def arg_parser():
     parser = argparse.ArgumentParser(description="Finetune LLMs on TikZ code (inverse graphics).")
     parser.add_argument('--model_id', type=str, default="detikzify-v2-8b", help="ID of the LLM to be finetuned.")
@@ -26,7 +27,8 @@ def arg_parser():
     parser.add_argument('--tmp_dir', type=str, required=True, help="Path to tmp dir.")
     return parser.parse_args()
 
-def main():
+
+if __name__=="__main__":
     args = arg_parser()
 
     detikzify_model_id = f"{args.model_id}_{args.max_seq_length}_{args.code_length[0]}_{args.code_length[1]}"
@@ -93,6 +95,3 @@ def main():
     if os.path.isdir(trained_model_path):
         last_checkpoint = get_last_checkpoint(trained_model_path)
     trainer.train(resume_from_checkpoint=last_checkpoint)
-
-if __name__=="__main__":
-    main()
