@@ -163,7 +163,7 @@ def save_batch(output_path, batch):
 
 if __name__ == "__main__":
     args = arg_parser()
-    bpe_path = "models/o200k_base.tiktoken"
+    bpe_path = "Models/o200k_base.tiktoken"
     with open(bpe_path, "rb") as f:
         contents = f.read()
     file_hash = hashlib.sha256(contents).hexdigest()

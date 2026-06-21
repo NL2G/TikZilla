@@ -4,7 +4,7 @@ import argparse
 
 from functools import partial
 from Data_Processing.tokenization import tokenize_detikzify
-from detikzify.model import load as load_model
+from DeTikZify_Model import load as load_model
 from transformers import Trainer, TrainingArguments
 from datasets import concatenate_datasets, load_from_disk
 from transformers.trainer_utils import get_last_checkpoint

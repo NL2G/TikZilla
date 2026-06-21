@@ -14,12 +14,11 @@ from ot.lp import emd2
 from shutil import which
 from pathlib import Path
 from dreamsim import dreamsim
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps, ImageChops
 from pdfCropMargins import crop
-from detikzify.util import expand
 from collections import OrderedDict
 from trl import GRPOConfig, GRPOTrainer
-from detikzify.model import load as load_model
+from DeTikZify_Model import load as load_model
 from Data_Processing.tokenization import make_qwen_base_preprocessor_grpo
 from datasets import concatenate_datasets, load_from_disk
 from torchmetrics.functional import pairwise_cosine_similarity
@@ -76,6 +75,18 @@ _DOC_RE = re.compile(
     """,
     re.DOTALL | re.VERBOSE
 )
+
+
+def trim(image, bg="white"):
+    bg = Image.new(image.mode, image.size, bg)
+    diff = ImageChops.difference(image, bg)
+    # diff = ImageChops.add(diff, diff, 2.0, -10)
+    return image.crop(bbox) if (bbox:=diff.getbbox()) else image
+
+
+def expand(image, size, do_trim=False, bg="white"):
+    image = trim(image, bg=bg) if do_trim else image
+    return ImageOps.pad(image, (size, size), color=bg, method=Image.Resampling.LANCZOS)
 
 
 def _extract_tikz_doc(text):
