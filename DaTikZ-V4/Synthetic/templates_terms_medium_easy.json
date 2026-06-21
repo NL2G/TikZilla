@@ -1,0 +1,5910 @@
+{
+  "template_1": {
+    "template": "A stack of <number> <block_type> layers labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "panel",
+        "section"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_2": {
+    "template": "A <block_type> block connected to another <block_type> block by a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "module",
+        "component"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_3": {
+    "template": "A sequence of <number> <shape> elements arranged <direction>.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "hexagon",
+        "ellipse"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_4": {
+    "template": "Each <shape> is labeled with <label> at the center.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_5": {
+    "template": "Four <block_type> blocks aligned in a <direction> grid.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "unit",
+        "module"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_6": {
+    "template": "A sequence of <number> <block_type> blocks arranged <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "component",
+        "segment",
+        "node",
+        "processor",
+        "element"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_7": {
+    "template": "A <block_type> at <position> connected to a <block_type> at <position> by a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "module"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "connection_type": [
+        "straight",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_8": {
+    "template": "A stack of <number> <layer_type> layers labeled <label_sequence>.",
+    "terms": {
+      "layer_type": [
+        "data",
+        "neural",
+        "processing"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_9": {
+    "template": "A grid of <number> <shape> elements with labels <label_sequence> at <position>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ],
+      "position": [
+        "center",
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_10": {
+    "template": "Two <block_type> blocks connected <direction> by a <connection_type> arrow.",
+    "terms": {
+      "block_type": [
+        "module",
+        "stage",
+        "unit"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "double"
+      ]
+    }
+  },
+  "template_11": {
+    "template": "A <block_type> linked to another <block_type> with a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "component",
+        "unit"
+      ],
+      "connection_type": [
+        "straight",
+        "dotted",
+        "zigzag"
+      ]
+    }
+  },
+  "template_12": {
+    "template": "A matrix of <number> <shape> items arranged <direction>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "ellipse"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_13": {
+    "template": "Each <shape> contains a label <label> inside.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_14": {
+    "template": "Four <block_type> modules connected linearly from <direction>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "segment"
+      ],
+      "direction": [
+        "right",
+        "bottom"
+      ]
+    }
+  },
+  "template_15": {
+    "template": "A <block_type> stack consisting of <number> layers, each labeled <label>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "level"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ]
+    }
+  },
+  "template_16": {
+    "template": "A grid of <number> <shape> elements with each row labeled <label>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "label": [
+        "Row A",
+        "Row B",
+        "Row C"
+      ]
+    }
+  },
+  "template_17": {
+    "template": "Two <block_type> connected by a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "component",
+        "block"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "arrow"
+      ]
+    }
+  },
+  "template_18": {
+    "template": "An array of <number> <shape> elements with labels <label_sequence> positioned <position>.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "ellipse",
+        "rectangle"
+      ],
+      "label_sequence": [
+        "Alpha, Beta, Gamma",
+        "One, Two, Three"
+      ],
+      "position": [
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_19": {
+    "template": "A sequence of <number> <block_type> blocks arranged in a <direction> line with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "component",
+        "segment",
+        "node",
+        "element"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_20": {
+    "template": "A layered structure with <number> <layer_type> layers stacked <direction>.",
+    "terms": {
+      "layer_type": [
+        "input",
+        "hidden",
+        "output",
+        "processing"
+      ],
+      "direction": [
+        "vertically",
+        "horizontally"
+      ]
+    }
+  },
+  "template_21": {
+    "template": "A grid of <number> by <number> <shape> cells labeled <label_pattern>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "label_pattern": [
+        "A1, A2, A3",
+        "B1, B2, B3",
+        "C1, C2, C3"
+      ]
+    }
+  },
+  "template_22": {
+    "template": "Each <block_type> is connected to the next with a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "module"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_23": {
+    "template": "A series of <number> <block_type> blocks with <label> at <position>.",
+    "terms": {
+      "block_type": [
+        "stage",
+        "phase",
+        "level"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_24": {
+    "template": "A sequence of <number> <block_type> blocks arranged <direction>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "component",
+        "node",
+        "element"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_25": {
+    "template": "A <shape> grid with <number> rows and <number> columns labeled <label_sequence>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "i, ii, iii"
+      ]
+    }
+  },
+  "template_26": {
+    "template": "Layers of <number> <block_type> stacked <direction>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "stratum"
+      ],
+      "direction": [
+        "upwards",
+        "downwards"
+      ]
+    }
+  },
+  "template_27": {
+    "template": "A set of <number> <shape> elements each labeled <label> positioned <position>.",
+    "terms": {
+      "shape": [
+        "oval",
+        "square"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_28": {
+    "template": "A sequence of <number> vertically stacked <block_type> blocks labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "component",
+        "section",
+        "panel"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_29": {
+    "template": "A chain of <number> <block_type> connected with <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "module"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_30": {
+    "template": "A <shape> grid with each cell labeled <label> at the <position>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "square"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ],
+      "position": [
+        "center",
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_31": {
+    "template": "Layers of <number> <block_type> arranged <direction> with arrows indicating <flow_type>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "stratum"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "flow_type": [
+        "upward",
+        "downward",
+        "forward"
+      ]
+    }
+  },
+  "template_32": {
+    "template": "A series of <number> <block_type> aligned <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "cell",
+        "segment"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_33": {
+    "template": "A stack of <number> <block_type> blocks labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "component",
+        "unit",
+        "section"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_34": {
+    "template": "A <block_type> at <position> connected to another <block_type> with a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "unit"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_35": {
+    "template": "A sequence of <number> <shape> shapes arranged <direction>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_36": {
+    "template": "Each <shape> has a label <label> beside it.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_37": {
+    "template": "Four <block_type> blocks connected in a grid pattern.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "module",
+        "stage"
+      ],
+      "grid_pattern": [
+        "2x2",
+        "1x4",
+        "4x1"
+      ]
+    }
+  },
+  "template_38": {
+    "template": "A sequence of <number> <block_type> units connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "component"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "angled"
+      ]
+    }
+  },
+  "template_39": {
+    "template": "A <block_type> grid with <number> rows and <number> columns.",
+    "terms": {
+      "block_type": [
+        "square",
+        "hexagon",
+        "triangle"
+      ]
+    }
+  },
+  "template_40": {
+    "template": "Each <block_type> is labeled <label> at <position>.",
+    "terms": {
+      "block_type": [
+        "circle",
+        "box"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_41": {
+    "template": "Two <block_type> elements aligned <direction> with a <connection_type> arrow.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "module"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed"
+      ]
+    }
+  },
+  "template_42": {
+    "template": "A <shape> grid with <number> rows and <number> columns, each labeled <label>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_43": {
+    "template": "A layered stack of <number> <block_type> elements, each labeled <label> at the <position>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "stage",
+        "tier"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ],
+      "position": [
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_44": {
+    "template": "A chain of <number> <block_type> blocks connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "element"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_45": {
+    "template": "A set of <number> <block_type> blocks aligned in a <direction> pattern, each labeled <label>.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "node",
+        "component"
+      ],
+      "direction": [
+        "linear",
+        "circular"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_46": {
+    "template": "A sequence of <number> <block_type> blocks aligned in a <direction> direction.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "node",
+        "module",
+        "segment"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_47": {
+    "template": "A grid composed of <number_x> by <number_y> <shape> units labeled <label_sequence>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "hexagon",
+        "triangle"
+      ],
+      "label_sequence": [
+        "1, 2, 3, 4",
+        "A, B, C, D",
+        "i, ii, iii, iv"
+      ]
+    }
+  },
+  "template_48": {
+    "template": "Layers stacked in <direction> with each layer labeled as <label>.",
+    "terms": {
+      "direction": [
+        "top-to-bottom",
+        "bottom-to-top"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ]
+    }
+  },
+  "template_49": {
+    "template": "A chain of <number> <block_type> elements with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "component",
+        "block"
+      ],
+      "label_sequence": [
+        "alpha, beta, gamma",
+        "one, two, three",
+        "first, second, third"
+      ]
+    }
+  },
+  "template_50": {
+    "template": "A chain of <number> <shape> nodes connected by <connection_type> lines.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_51": {
+    "template": "A grid of <number> x <number> <shape> elements with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "hexagon",
+        "ellipse"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "I, II, III"
+      ]
+    }
+  },
+  "template_52": {
+    "template": "Each <block_type> is positioned at <position> and labeled <label>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "element"
+      ],
+      "position": [
+        "center",
+        "top-left",
+        "bottom-right"
+      ],
+      "label": [
+        "Alpha",
+        "Beta",
+        "Gamma"
+      ]
+    }
+  },
+  "template_53": {
+    "template": "A sequence of <number> <block_type> blocks aligned <direction>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "stage",
+        "phase"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_54": {
+    "template": "A series of <number> <shape> shapes arranged in a <direction> line.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_55": {
+    "template": "A grid of <number> by <number> <element_type> elements with labels <label_sequence>.",
+    "terms": {
+      "element_type": [
+        "node",
+        "cell",
+        "unit"
+      ],
+      "label_sequence": [
+        "1, 2, 3, 4",
+        "A, B, C, D",
+        "W, X, Y, Z"
+      ]
+    }
+  },
+  "template_56": {
+    "template": "Each <block_type> block is connected by a <connection_type> line in <direction>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "component",
+        "section"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_57": {
+    "template": "A sequence of <number> <block_type> units aligned <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "node",
+        "element"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "label_sequence": [
+        "P, Q, R",
+        "1, 2, 3",
+        "A, B, C"
+      ]
+    }
+  },
+  "template_58": {
+    "template": "A <block_type> block at <position> connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "node",
+        "component"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_59": {
+    "template": "An array of <number> <shape> elements arranged in a grid <direction>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_60": {
+    "template": "Each <block_type> has a label <label> below it.",
+    "terms": {
+      "block_type": [
+        "circle",
+        "box",
+        "triangle"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    }
+  },
+  "template_61": {
+    "template": "Four <block_type> blocks linked in a chain <direction>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "stage",
+        "component"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_62": {
+    "template": "A sequence of <number> <block_type> blocks arranged in a <direction> line.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "segment"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ],
+      "number": [
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "template_63": {
+    "template": "Layers of <number> <block_type> stacked vertically with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "stratum"
+      ],
+      "label_sequence": [
+        "L1, L2, L3",
+        "Top, Middle, Bottom",
+        "A, B, C"
+      ],
+      "number": [
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "template_64": {
+    "template": "A grid of <number> by <number> <shape> cells with labels <label_pattern>.",
+    "terms": {
+      "shape": [
+        "square",
+        "hexagon",
+        "circle"
+      ],
+      "label_pattern": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ],
+      "number": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_65": {
+    "template": "A chain of <number> <block_type> connected by <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "component"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ],
+      "number": [
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "template_66": {
+    "template": "Each <shape> in the grid is labeled with <label> at <position>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "center"
+      ]
+    }
+  },
+  "template_67": {
+    "template": "A sequence of <number> <block_type> blocks stacked vertically with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "unit",
+        "component"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_68": {
+    "template": "A grid of <number> by <number> <shape> elements connected by <connection_type> lines.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_69": {
+    "template": "A <block_type> positioned at the <position> with arrows pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "module",
+        "element"
+      ],
+      "position": [
+        "center",
+        "corner",
+        "edge"
+      ],
+      "direction": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ]
+    }
+  },
+  "template_70": {
+    "template": "Layers of <number> <shape> arranged in a <direction> orientation.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "triangle"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_71": {
+    "template": "A chain of <number> <block_type> blocks labeled from <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "stage",
+        "unit",
+        "section"
+      ],
+      "label_sequence": [
+        "A, B, C",
+        "1, 2, 3",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_72": {
+    "template": "A stack of <number> <block_type> layers with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "component"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "Alpha, Beta, Gamma"
+      ]
+    }
+  },
+  "template_73": {
+    "template": "A grid composed of <number> <shape> shapes labeled <label>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "square",
+        "circle"
+      ],
+      "label": [
+        "1, 2, 3",
+        "X, Y, Z",
+        "A, B, C"
+      ]
+    }
+  },
+  "template_74": {
+    "template": "A chain of <number> <block_type> blocks linked in <direction> order.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "module",
+        "unit"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_75": {
+    "template": "A chain of <number> <block_type> units arranged in <direction>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "node",
+        "element"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_76": {
+    "template": "A stack of <number> <shape> shapes, each labeled <label>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_77": {
+    "template": "A <block_type> with <connection_type> connections to adjacent <block_type>s.",
+    "terms": {
+      "block_type": [
+        "node",
+        "cell",
+        "component"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_78": {
+    "template": "A grid of <number> x <number> <block_type> blocks, each positioned <position>.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "unit",
+        "module"
+      ],
+      "position": [
+        "centered",
+        "aligned",
+        "offset"
+      ]
+    }
+  },
+  "template_79": {
+    "template": "A sequence of <number> <block_type> stages labeled from <label_start> to <label_end>.",
+    "terms": {
+      "block_type": [
+        "phase",
+        "layer",
+        "step"
+      ],
+      "label_start": [
+        "A",
+        "1"
+      ],
+      "label_end": [
+        "Z",
+        "10"
+      ]
+    }
+  },
+  "template_80": {
+    "template": "A <shape> grid consisting of <rows> rows and <columns> columns, labeled <label_pattern>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "hexagon"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ],
+      "label_pattern": [
+        "row-wise",
+        "column-wise"
+      ]
+    }
+  },
+  "template_81": {
+    "template": "A stack of <number> <block_type> with <connection_type> connections.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "panel",
+        "unit"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_82": {
+    "template": "A chain of <number> <block_type> connected <direction> with arrows labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "segment",
+        "unit",
+        "node"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "label_sequence": [
+        "A to Z",
+        "1 to 10",
+        "alpha to omega"
+      ]
+    }
+  },
+  "template_83": {
+    "template": "Each <block_type> has a <shape> label <position>.",
+    "terms": {
+      "block_type": [
+        "box",
+        "node",
+        "cell"
+      ],
+      "shape": [
+        "circle",
+        "square"
+      ],
+      "position": [
+        "inside",
+        "outside",
+        "adjacent"
+      ]
+    }
+  },
+  "template_84": {
+    "template": "A <grid_size> grid of <shape> shapes with each labeled <label>.",
+    "terms": {
+      "grid_size": [
+        "3x3",
+        "4x4",
+        "5x5"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_85": {
+    "template": "Layers of <number> <block_type> stacked <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "stratum",
+        "tier"
+      ],
+      "direction": [
+        "upward",
+        "downward"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_86": {
+    "template": "An arrangement of <number> <shape> elements in a <pattern_type> pattern.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "circle",
+        "rectangle"
+      ],
+      "pattern_type": [
+        "spiral",
+        "grid",
+        "linear"
+      ],
+      "number": [
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "template_87": {
+    "template": "A sequence of <number> <block_type> blocks connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "processor",
+        "module",
+        "component"
+      ],
+      "connection_type": [
+        "straight",
+        "dotted",
+        "zigzag"
+      ]
+    }
+  },
+  "template_88": {
+    "template": "A stack of <number> <block_type> elements labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "section",
+        "tier"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "I, II, III"
+      ]
+    }
+  },
+  "template_89": {
+    "template": "A grid of <number> <shape> shapes with <label> labels inside.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_90": {
+    "template": "Each <block_type> is positioned <position> with respect to the center.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "cell"
+      ],
+      "position": [
+        "above",
+        "below",
+        "to the left",
+        "to the right"
+      ]
+    }
+  },
+  "template_91": {
+    "template": "A chain of <number> <block_type> elements linked in <direction> direction.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "node",
+        "element"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_92": {
+    "template": "A <grid_type> grid of <number> <shape> shapes, each labeled <label>.",
+    "terms": {
+      "grid_type": [
+        "rectangular",
+        "triangular",
+        "hexagonal"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_93": {
+    "template": "Layers of <block_type> stacked <direction> with arrows indicating <connection_type> connections.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "section",
+        "tier"
+      ],
+      "direction": [
+        "upwards",
+        "downwards"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_94": {
+    "template": "A <shape> shape at each <position> with <label> inside.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "position": [
+        "corner",
+        "center"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_95": {
+    "template": "A chain of <number> <block_type> connected <direction> with <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "cell"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "zigzag"
+      ]
+    }
+  },
+  "template_96": {
+    "template": "A chain of <block_type> blocks connected by <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "node",
+        "module",
+        "unit"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_97": {
+    "template": "Each <shape> is positioned at <position> with label <label> inside.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle"
+      ],
+      "position": [
+        "top-left",
+        "center",
+        "bottom-right"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "X",
+        "Y",
+        "Z"
+      ]
+    }
+  },
+  "template_98": {
+    "template": "A layered stack of <number> <shape> elements with <label> on each.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "hexagon"
+      ],
+      "label": [
+        "Label1",
+        "Label2",
+        "Label3"
+      ]
+    }
+  },
+  "template_99": {
+    "template": "A grid of <number> <shape> shapes aligned in a <direction> manner.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "row-wise",
+        "column-wise"
+      ]
+    }
+  },
+  "template_100": {
+    "template": "Three <block_type> blocks connected sequentially from <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "node",
+        "unit"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "label_sequence": [
+        "A, B, C",
+        "1, 2, 3"
+      ]
+    }
+  },
+  "template_101": {
+    "template": "A <block_type> linked to a <block_type> using a <connection_type> connector.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "block"
+      ],
+      "connection_type": [
+        "straight",
+        "dashed",
+        "angled"
+      ]
+    }
+  },
+  "template_102": {
+    "template": "A grid of <number> <shape> shapes organized in a <direction> pattern.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "hexagon",
+        "pentagon"
+      ],
+      "direction": [
+        "left-to-right",
+        "bottom-up"
+      ]
+    }
+  },
+  "template_103": {
+    "template": "Each <shape> is annotated with a label <label> at the <position>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_104": {
+    "template": "Five <block_type> blocks aligned <direction> with interconnecting <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "section",
+        "layer",
+        "module"
+      ],
+      "direction": [
+        "vertically",
+        "horizontally"
+      ],
+      "connection_type": [
+        "dotted",
+        "curved",
+        "zigzag"
+      ]
+    }
+  },
+  "template_105": {
+    "template": "A grid of <number> x <number> <shape> shapes with <label> at each corner.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "triangle"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  },
+  "template_106": {
+    "template": "A series of <number> <block_type> blocks connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "stage"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dotted"
+      ]
+    }
+  },
+  "template_107": {
+    "template": "A layered stack of <number> <block_type> with labels <label> at each layer.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "section",
+        "tier"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ]
+    }
+  },
+  "template_108": {
+    "template": "An array of <number> <shape> shapes aligned <direction> with <label> inside.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "hexagon"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_109": {
+    "template": "A <shape> grid of <number> by <number> with <label> in each <position>.",
+    "terms": {
+      "shape": [
+        "square",
+        "hexagon"
+      ],
+      "label": [
+        "number",
+        "letter"
+      ],
+      "position": [
+        "center",
+        "corner"
+      ]
+    }
+  },
+  "template_110": {
+    "template": "Layers of <block_type> stacked <direction> with <connection_type> connections.",
+    "terms": {
+      "block_type": [
+        "neural",
+        "computational"
+      ],
+      "direction": [
+        "upward",
+        "downward"
+      ],
+      "connection_type": [
+        "linear",
+        "network"
+      ]
+    }
+  },
+  "template_111": {
+    "template": "A chain of <block_type> linked by <connection_type> arrows labeled <label>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element"
+      ],
+      "connection_type": [
+        "straight",
+        "curved"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma"
+      ]
+    }
+  },
+  "template_112": {
+    "template": "Each <shape> contains a <label> at the <position> with a <block_type> below.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle"
+      ],
+      "label": [
+        "number",
+        "letter"
+      ],
+      "position": [
+        "top",
+        "bottom"
+      ],
+      "block_type": [
+        "component",
+        "unit"
+      ]
+    }
+  },
+  "template_113": {
+    "template": "A <shape> grid with <number> rows and columns, labeled <label>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "A1, B1, C1",
+        "X1, Y1, Z1",
+        "P1, Q1, R1"
+      ]
+    }
+  },
+  "template_114": {
+    "template": "A stack of <number> <block_type> blocks each labeled <label>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "component",
+        "segment"
+      ],
+      "label": [
+        "1, 2, 3",
+        "Alpha, Beta, Gamma",
+        "Red, Green, Blue"
+      ]
+    }
+  },
+  "template_115": {
+    "template": "Two <shape> elements aligned <direction> with a <connection_type> connector.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed"
+      ]
+    }
+  },
+  "template_116": {
+    "template": "A stack of <number> <block_type> blocks with each having a <label>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "segment",
+        "tier"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "X",
+        "Y",
+        "Z"
+      ]
+    }
+  },
+  "template_117": {
+    "template": "A <block_type> connected to another <block_type> via a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "unit"
+      ],
+      "connection_type": [
+        "dotted",
+        "solid",
+        "double"
+      ]
+    }
+  },
+  "template_118": {
+    "template": "A layered structure with <number> <block_type> layers, each labeled <label>.",
+    "terms": {
+      "block_type": [
+        "network",
+        "array",
+        "system"
+      ],
+      "label": [
+        "Layer1",
+        "Layer2",
+        "Layer3"
+      ]
+    }
+  },
+  "template_119": {
+    "template": "A grid consisting of <rows> rows and <columns> columns of <shape> elements.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_120": {
+    "template": "Each <block_type> is labeled with <label> at the <position>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "component",
+        "segment"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_121": {
+    "template": "A <shape> connected by <connection_type> lines forming a chain.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_122": {
+    "template": "A <block_type> with <label> connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "node",
+        "cell",
+        "element"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "A",
+        "B",
+        "C"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ]
+    }
+  },
+  "template_123": {
+    "template": "A layered structure with <number> <layer_type> layers.",
+    "terms": {
+      "layer_type": [
+        "input",
+        "hidden",
+        "output"
+      ]
+    }
+  },
+  "template_124": {
+    "template": "A grid of <number> by <number> <shape> with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_125": {
+    "template": "A chain of <number> <block_type> connected <direction>.",
+    "terms": {
+      "block_type": [
+        "component",
+        "unit",
+        "node"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_126": {
+    "template": "A grid of <number> by <number> <shape> with each labeled <label>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_127": {
+    "template": "A series of <number> <block_type> connected by <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "stage",
+        "process",
+        "module"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ]
+    }
+  },
+  "template_128": {
+    "template": "A grid of <rows> by <columns> <shape> with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_129": {
+    "template": "Layers of <layer_type> stacked <direction> with <number> layers.",
+    "terms": {
+      "layer_type": [
+        "network",
+        "filter",
+        "neuron"
+      ],
+      "direction": [
+        "upward",
+        "downward"
+      ]
+    }
+  },
+  "template_130": {
+    "template": "A <block_type> connected by <connection_type> lines to <number> other <block_type> blocks.",
+    "terms": {
+      "block_type": [
+        "node",
+        "component",
+        "unit"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_131": {
+    "template": "A <shape> grid with each cell labeled <label> in <direction> order.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C"
+      ],
+      "direction": [
+        "row-major",
+        "column-major"
+      ]
+    }
+  },
+  "template_132": {
+    "template": "A <block_type> positioned at <position> connected by <connection_type> lines to adjacent <block_type>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "layer"
+      ],
+      "position": [
+        "center",
+        "top-left",
+        "bottom-right"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ]
+    }
+  },
+  "template_133": {
+    "template": "A stack of <number> <shape> layers, each labeled <label>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "square",
+        "ellipse"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_134": {
+    "template": "A grid of <number> by <number> <block_type> with <direction> alignment.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "unit",
+        "module"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_135": {
+    "template": "A series of <number> <shape> arranged in a <direction> sequence, each with a <label>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "hexagon",
+        "triangle"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_136": {
+    "template": "A <shape> grid consisting of <number> elements with alignment <direction>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "rectangle"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_137": {
+    "template": "A sequence of <number> <shape> shapes aligned <direction> with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "triangle"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "label_sequence": [
+        "X, Y, Z",
+        "A, B, C",
+        "1, 2, 3"
+      ]
+    }
+  },
+  "template_138": {
+    "template": "A grid of <number> by <number> <block_type> units.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "module",
+        "unit"
+      ],
+      "number": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_139": {
+    "template": "Each <block_type> is connected to another with a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "component",
+        "element"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_140": {
+    "template": "A <direction> chain of <number> <block_type> blocks labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "module",
+        "layer"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_141": {
+    "template": "A sequence of <number> <block_type> elements labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "node",
+        "component",
+        "unit"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_142": {
+    "template": "A <shape> grid consisting of <number> rows and <number> columns.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ]
+    }
+  },
+  "template_143": {
+    "template": "Each <block_type> has a <label> at <position>.",
+    "terms": {
+      "block_type": [
+        "box",
+        "circle",
+        "rectangle"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma",
+        "delta"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_144": {
+    "template": "A series of <number> <block_type> blocks arranged <direction>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "section",
+        "phase"
+      ],
+      "direction": [
+        "vertically",
+        "horizontally"
+      ]
+    }
+  },
+  "template_145": {
+    "template": "A <block_type> positioned at <position> linked by a <connection_type> line to another <block_type>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "element",
+        "node"
+      ],
+      "position": [
+        "left",
+        "right",
+        "above",
+        "below"
+      ],
+      "connection_type": [
+        "straight",
+        "dotted",
+        "curved"
+      ]
+    }
+  },
+  "template_146": {
+    "template": "A grid consisting of <number> <shape> shapes organized <direction>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "hexagon"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_147": {
+    "template": "Each <block_type> contains a label <label> inside.",
+    "terms": {
+      "block_type": [
+        "box",
+        "circle",
+        "hexagon"
+      ],
+      "label": [
+        "P",
+        "Q",
+        "R",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_148": {
+    "template": "A grid of <number> by <number> <shape> elements with <connection_type> connections.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "circle"
+      ],
+      "connection_type": [
+        "straight",
+        "diagonal",
+        "curved"
+      ]
+    }
+  },
+  "template_149": {
+    "template": "A chain of <number> <block_type> linked with <connection_type> arrows labeled <label>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "element"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_150": {
+    "template": "A <shape> with <number> layers labeled <label_sequence>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "square"
+      ],
+      "label_sequence": [
+        "A, B, C",
+        "1, 2, 3",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_151": {
+    "template": "A <block_type> at <position> connected to another <block_type> at <position> with a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "module",
+        "stage"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_152": {
+    "template": "A layered stack of <number> <shape> components, each labeled <label>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval",
+        "hexagon"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "L1",
+        "L2",
+        "L3"
+      ]
+    }
+  },
+  "template_153": {
+    "template": "A grid of <number> <block_type> blocks with <direction> alignment.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "module",
+        "unit"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_154": {
+    "template": "Two <shape> elements positioned <direction> with labels <label>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "side-by-side",
+        "one-above-the-other"
+      ],
+      "label": [
+        "P",
+        "Q",
+        "R",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_155": {
+    "template": "A sequence of <number> <block_type> elements connected with <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "stage"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ]
+    }
+  },
+  "template_156": {
+    "template": "A grid composed of <number> <shape> shapes arranged <direction>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "triangle"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_157": {
+    "template": "A chain of <block_type> blocks oriented <direction>, each with a <label>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "segment",
+        "part"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_158": {
+    "template": "A row of <number> <block_type> blocks with <label> at <position>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "gate",
+        "processor"
+      ],
+      "label": [
+        "L1",
+        "L2",
+        "L3",
+        "P1",
+        "P2",
+        "P3"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_159": {
+    "template": "Layers of <block_type> stacked <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "neuron",
+        "module",
+        "cell"
+      ],
+      "direction": [
+        "upwards",
+        "downwards"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_160": {
+    "template": "A grid of <number> by <number> <shape> elements with each having a <label>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "triangle"
+      ],
+      "label": [
+        "label1",
+        "label2",
+        "label3"
+      ],
+      "number": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_161": {
+    "template": "Each <block_type> is connected by a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "section"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dotted"
+      ]
+    }
+  },
+  "template_162": {
+    "template": "A <shape> with <label> at the <position>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "position": [
+        "center",
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_163": {
+    "template": "A <grid_type> grid of <shape> shapes labeled with <label>.",
+    "terms": {
+      "grid_type": [
+        "3x3",
+        "4x4",
+        "5x5"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "numbers",
+        "letters",
+        "symbols"
+      ]
+    }
+  },
+  "template_164": {
+    "template": "A series of <number> <block_type> arranged in a <pattern> pattern.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "cell",
+        "gate"
+      ],
+      "pattern": [
+        "zigzag",
+        "linear",
+        "circular"
+      ]
+    }
+  },
+  "template_165": {
+    "template": "Each <element> in the <layout> is connected by a <connection_type> line.",
+    "terms": {
+      "element": [
+        "node",
+        "point",
+        "vertex"
+      ],
+      "layout": [
+        "network",
+        "mesh",
+        "chain"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_166": {
+    "template": "A stack of <number> <block_type> with labels <label_sequence> on the <side>.",
+    "terms": {
+      "block_type": [
+        "panel",
+        "section",
+        "layer"
+      ],
+      "label_sequence": [
+        "X, Y, Z",
+        "1, 2, 3",
+        "Red, Green, Blue"
+      ],
+      "side": [
+        "left",
+        "right",
+        "top"
+      ]
+    }
+  },
+  "template_167": {
+    "template": "A stack of <number> <block_type> blocks with each labeled as <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "component",
+        "module",
+        "segment"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_168": {
+    "template": "A sequence of <number> <shape> shapes aligned in <direction> order.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "triangle"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_169": {
+    "template": "Each <shape> contains a label <label> at the <position>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "circle"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "position": [
+        "center",
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_170": {
+    "template": "Four <block_type> blocks arranged in a grid with <connection_type> connections.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "section"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_171": {
+    "template": "A chain of <number> <block_type> blocks aligned <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "processor",
+        "node",
+        "layer",
+        "module"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_172": {
+    "template": "A layered stack of <number> <block_type> with each layer labeled <label>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "section",
+        "tier"
+      ],
+      "label": [
+        "L1",
+        "L2",
+        "L3",
+        "Layer A",
+        "Layer B"
+      ]
+    }
+  },
+  "template_173": {
+    "template": "A <block_type> stack with <number> layers labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "stratum"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_174": {
+    "template": "A <grid_type> grid of <number> <shape> elements.",
+    "terms": {
+      "grid_type": [
+        "uniform",
+        "staggered"
+      ],
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ]
+    }
+  },
+  "template_175": {
+    "template": "Each <element> is connected by <connection_type> lines.",
+    "terms": {
+      "element": [
+        "node",
+        "vertex"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ]
+    }
+  },
+  "template_176": {
+    "template": "Two <block_type> blocks joined by a <connection_type> arrow pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "cell"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted"
+      ],
+      "direction": [
+        "upwards",
+        "downwards",
+        "leftwards",
+        "rightwards"
+      ]
+    }
+  },
+  "template_177": {
+    "template": "A <block_type> grid with <number> rows and <number> columns labeled by <label>.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "compartment",
+        "section"
+      ],
+      "label": [
+        "letters",
+        "numbers",
+        "symbols"
+      ]
+    }
+  },
+  "template_178": {
+    "template": "A series of <number> <shape> elements connected by <connection_type> lines.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_179": {
+    "template": "An array of <number> <shape> shapes with labels <label> at <position>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "rectangle",
+        "ellipse"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "position": [
+        "center",
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_180": {
+    "template": "A stack of <number> <block_type> layers connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "level"
+      ],
+      "connection_type": [
+        "straight",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_181": {
+    "template": "A grid of <number> <shape> shapes arranged <direction>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "in rows",
+        "in columns"
+      ]
+    }
+  },
+  "template_182": {
+    "template": "Each <shape> is labeled <label> at <position>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "label": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_183": {
+    "template": "Two <block_type> units connected by a <connection_type> arrow pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "stage"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "curved"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_184": {
+    "template": "A sequence of <number> <block_type> blocks arranged in a <direction> line, each labeled <label>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "node",
+        "element",
+        "component"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_185": {
+    "template": "A layered structure with <number> <layer_type> layers, each connected by <connection_type> lines.",
+    "terms": {
+      "layer_type": [
+        "input",
+        "hidden",
+        "output"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_186": {
+    "template": "A <block_type> block positioned at <position> with a <direction> arrow pointing to it.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "stage"
+      ],
+      "position": [
+        "top-left",
+        "center",
+        "bottom-right"
+      ],
+      "direction": [
+        "upward",
+        "downward",
+        "leftward",
+        "rightward"
+      ]
+    }
+  },
+  "template_187": {
+    "template": "A chain of <number> <block_type> connected by <connection_type> arrows, labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "unit",
+        "node"
+      ],
+      "connection_type": [
+        "curved",
+        "straight",
+        "zigzag"
+      ],
+      "label_sequence": [
+        "A, B, C",
+        "1, 2, 3",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_188": {
+    "template": "A chain of <number> <block_type> blocks aligned <direction>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "stage"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_189": {
+    "template": "A <block_type> connected to multiple <block_type> blocks with <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "element"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dotted"
+      ]
+    }
+  },
+  "template_190": {
+    "template": "A <grid_size> grid of <shape> elements labeled <label_sequence>.",
+    "terms": {
+      "grid_size": [
+        "3x3",
+        "4x4",
+        "5x5"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_191": {
+    "template": "Stacked <number> <block_type> blocks with <label> labels at <position>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "segment",
+        "section"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_192": {
+    "template": "A chain of <number> <block_type> blocks with <connection_type> connections.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "module",
+        "component"
+      ],
+      "connection_type": [
+        "linear",
+        "zigzag",
+        "curved"
+      ]
+    }
+  },
+  "template_193": {
+    "template": "A stack of <number> <block_type> layers with a label <label> at each <position>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "section"
+      ],
+      "label": [
+        "1",
+        "A",
+        "X"
+      ],
+      "position": [
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_194": {
+    "template": "An array of <number> <shape> shapes connected by <connection_type> lines.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "diamond"
+      ],
+      "connection_type": [
+        "straight",
+        "curved"
+      ]
+    }
+  },
+  "template_195": {
+    "template": "A <grid_size> grid of <shape> elements with labels <label>.",
+    "terms": {
+      "grid_size": [
+        "3x3",
+        "4x4",
+        "5x5"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_196": {
+    "template": "Each <block_type> in the stack has a label <label> on the side.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "stage",
+        "section"
+      ],
+      "label": [
+        "Alpha",
+        "Beta",
+        "Gamma",
+        "Delta"
+      ]
+    }
+  },
+  "template_197": {
+    "template": "A chain of <number> <block_type> blocks linked <direction> by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "node",
+        "element"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "connection_type": [
+        "straight",
+        "dashed",
+        "angled"
+      ]
+    }
+  },
+  "template_198": {
+    "template": "A stack of <number> <block_type> blocks labeled <label_sequence> in <direction> order.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "component",
+        "module",
+        "section"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "alpha, beta, gamma"
+      ],
+      "direction": [
+        "ascending",
+        "descending"
+      ]
+    }
+  },
+  "template_199": {
+    "template": "A sequence of <number> <block_type> connected with <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "element"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ]
+    }
+  },
+  "template_200": {
+    "template": "A <block_type> grid of <number> by <number> cells labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "square",
+        "hexagonal",
+        "triangular"
+      ],
+      "label_sequence": [
+        "1, 2, 3, 4",
+        "A, B, C, D",
+        "I, II, III, IV"
+      ]
+    }
+  },
+  "template_201": {
+    "template": "Each <block_type> is connected <direction> to a <block_type> with a <connection_type> arrow.",
+    "terms": {
+      "block_type": [
+        "node",
+        "stage",
+        "point"
+      ],
+      "direction": [
+        "left",
+        "right",
+        "up",
+        "down"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "double"
+      ]
+    }
+  },
+  "template_202": {
+    "template": "A <block_type> linked to a <block_type> by a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "module",
+        "element",
+        "unit"
+      ],
+      "connection_type": [
+        "straight",
+        "dotted",
+        "zigzag"
+      ]
+    }
+  },
+  "template_203": {
+    "template": "A grid of <number> by <number> <shape> shapes with <label> labels inside.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "hexagon",
+        "ellipse"
+      ],
+      "label": [
+        "numeric",
+        "alphabetic"
+      ]
+    }
+  },
+  "template_204": {
+    "template": "Layers of <block_type> arranged in a stack from <position> to <position>.",
+    "terms": {
+      "block_type": [
+        "network",
+        "layer",
+        "tier"
+      ],
+      "position": [
+        "bottom",
+        "top",
+        "middle"
+      ]
+    }
+  },
+  "template_205": {
+    "template": "A chain of <number> <block_type> blocks connected with <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "node",
+        "stage",
+        "level"
+      ],
+      "connection_type": [
+        "arrow",
+        "line",
+        "curve"
+      ]
+    }
+  },
+  "template_206": {
+    "template": "Each <block_type> is connected by <connection_type> arrows pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "module",
+        "component"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "double"
+      ],
+      "direction": [
+        "upward",
+        "downward",
+        "sideways"
+      ]
+    }
+  },
+  "template_207": {
+    "template": "A chain of <number> <block_type> elements labeled <label> arranged in <direction> order.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "module",
+        "segment"
+      ],
+      "label": [
+        "Alpha",
+        "Beta",
+        "Gamma"
+      ],
+      "direction": [
+        "ascending",
+        "descending"
+      ]
+    }
+  },
+  "template_208": {
+    "template": "A stack of <number> <block_type> with connections using <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "unit",
+        "stage"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ]
+    }
+  },
+  "template_209": {
+    "template": "A <number>x<number> grid of <shape> elements labeled <label>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "rectangle"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_210": {
+    "template": "A row of <number> <shape> elements with a label <label> at the <position>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "ellipse"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_211": {
+    "template": "A <block_type> connected to a <block_type> with a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "processor"
+      ],
+      "connection_type": [
+        "straight",
+        "dotted",
+        "zigzag"
+      ]
+    }
+  },
+  "template_212": {
+    "template": "A grid of <number> <shape> elements arranged <direction>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "ellipse"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_213": {
+    "template": "Each <shape> is annotated with a label <label> below.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_214": {
+    "template": "Four <block_type> blocks aligned in a <direction> manner.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "layer",
+        "stage"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_215": {
+    "template": "A sequence of <number> <shape> elements connected by <connection_type> lines.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "hexagon",
+        "octagon"
+      ],
+      "connection_type": [
+        "straight",
+        "zigzag",
+        "curved"
+      ]
+    }
+  },
+  "template_216": {
+    "template": "A grid of <number> by <number> <block_type> units with <label> labels.",
+    "terms": {
+      "block_type": [
+        "computation",
+        "network",
+        "data"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_217": {
+    "template": "Each <block_type> is linked to another with a <direction> arrow.",
+    "terms": {
+      "block_type": [
+        "module",
+        "component",
+        "segment"
+      ],
+      "direction": [
+        "upward",
+        "downward",
+        "leftward",
+        "rightward"
+      ]
+    }
+  },
+  "template_218": {
+    "template": "A <shape> at each <position> of a <number> layer <block_type>.",
+    "terms": {
+      "shape": [
+        "ellipse",
+        "rectangle"
+      ],
+      "position": [
+        "corner",
+        "center",
+        "edge"
+      ],
+      "block_type": [
+        "stack",
+        "array",
+        "grid"
+      ]
+    }
+  },
+  "template_219": {
+    "template": "A <shape> grid with <number> rows and <number> columns, labeled <label_pattern>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "square"
+      ],
+      "label_pattern": [
+        "1, 2, 3",
+        "A, B, C",
+        "i, ii, iii"
+      ]
+    }
+  },
+  "template_220": {
+    "template": "Layers of <block_type> arranged from <position> to <position>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "level"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_221": {
+    "template": "A <connection_type> line connects each <block_type> in a <shape> pattern.",
+    "terms": {
+      "connection_type": [
+        "dotted",
+        "solid",
+        "dashed"
+      ],
+      "block_type": [
+        "module",
+        "unit",
+        "section"
+      ],
+      "shape": [
+        "circular",
+        "linear",
+        "zigzag"
+      ]
+    }
+  },
+  "template_222": {
+    "template": "Each <block_type> is annotated with a <label> at <position>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "point",
+        "block"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma",
+        "1",
+        "2",
+        "3"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_223": {
+    "template": "A <block_type> at <position> connected with a <connection_type> line to another <block_type>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "unit"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_224": {
+    "template": "A <grid_type> grid of <number> <shape> shapes labeled <label_sequence>.",
+    "terms": {
+      "grid_type": [
+        "square",
+        "rectangular"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ],
+      "number": [
+        "9",
+        "12",
+        "16"
+      ]
+    }
+  },
+  "template_225": {
+    "template": "Stack of <number> <layer_type> layers labeled from <top_to_bottom>.",
+    "terms": {
+      "layer_type": [
+        "network",
+        "processing",
+        "filter"
+      ],
+      "top_to_bottom": [
+        "top to bottom",
+        "bottom to top"
+      ],
+      "number": [
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "template_226": {
+    "template": "A layered stack of <number> <layer_type> layers labeled <label_sequence>.",
+    "terms": {
+      "layer_type": [
+        "neural",
+        "processing",
+        "memory"
+      ],
+      "label_sequence": [
+        "Layer 1, Layer 2, Layer 3",
+        "Alpha, Beta, Gamma"
+      ]
+    }
+  },
+  "template_227": {
+    "template": "Each <block_type> is connected <direction> with a <connection_type> arrow.",
+    "terms": {
+      "block_type": [
+        "component",
+        "module",
+        "section"
+      ],
+      "direction": [
+        "to the right",
+        "downward"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "angled"
+      ]
+    }
+  },
+  "template_228": {
+    "template": "A stack of <number> <block_type> layers arranged <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "neuron",
+        "module",
+        "unit",
+        "gate",
+        "cell"
+      ],
+      "direction": [
+        "vertically",
+        "horizontally"
+      ],
+      "label_sequence": [
+        "A, B, C",
+        "1, 2, 3",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_229": {
+    "template": "A grid of <number> by <number> <block_type> blocks with each block labeled <label>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "element"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_230": {
+    "template": "A chain of <block_type> connected <direction> with <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "stage"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "connection_type": [
+        "straight",
+        "curved"
+      ]
+    }
+  },
+  "template_231": {
+    "template": "Each <shape> in the sequence has a <label> inside.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "X",
+        "Y",
+        "Z"
+      ]
+    }
+  },
+  "template_232": {
+    "template": "A grid of <rows> by <columns> <shape> elements with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_233": {
+    "template": "A chain of <number> <block_type> elements, each labeled <label>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "segment"
+      ],
+      "label": [
+        "P",
+        "Q",
+        "R",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_234": {
+    "template": "A <shape> at <position> connected to another <shape> with a <connection_type> line.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "ellipse"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "arrow"
+      ]
+    }
+  },
+  "template_235": {
+    "template": "A grid of <number> <shape> elements with each cell labeled <label>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "pentagon"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_236": {
+    "template": "An array of <number> <shape> elements arranged <direction>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_237": {
+    "template": "Each <block_type> is connected to the next with a <connection_type> arrow pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "cell",
+        "component"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted"
+      ],
+      "direction": [
+        "right",
+        "down"
+      ]
+    }
+  },
+  "template_238": {
+    "template": "A grid consisting of <number> <shape> elements labeled <label_sequence>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "ellipse"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_239": {
+    "template": "Layers of <block_type> stacked in <direction> order.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "level"
+      ],
+      "direction": [
+        "ascending",
+        "descending"
+      ]
+    }
+  },
+  "template_240": {
+    "template": "Each <shape> is linked to another with a <connection_type> arrow.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "diamond"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "zigzag"
+      ]
+    }
+  },
+  "template_241": {
+    "template": "A <block_type> is connected to another <block_type> by a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "unit"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_242": {
+    "template": "Each <block_type> in the row has a label <label> below it.",
+    "terms": {
+      "block_type": [
+        "node",
+        "block",
+        "component"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_243": {
+    "template": "A stack of <number> <block_type> layers with connections <direction>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "level"
+      ],
+      "direction": [
+        "upwards",
+        "downwards"
+      ]
+    }
+  },
+  "template_244": {
+    "template": "A chain of <number> <block_type> blocks arranged <direction>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "component",
+        "element",
+        "processor",
+        "step"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_245": {
+    "template": "A sequence of <number> <block_type> blocks labeled sequentially as <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "stage",
+        "segment",
+        "phase"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "I, II, III"
+      ]
+    }
+  },
+  "template_246": {
+    "template": "A grid consisting of <rows> by <columns> <shape> elements.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_247": {
+    "template": "A grid composed of <rows> rows and <columns> columns of <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_248": {
+    "template": "A grid of <number> <shape> shapes labeled <label_sequence>.",
+    "terms": {
+      "shape": [
+        "square",
+        "triangle",
+        "hexagon"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_249": {
+    "template": "Each <block_type> is labeled <label> and positioned <position>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "module",
+        "section"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "L1",
+        "L2"
+      ],
+      "position": [
+        "left",
+        "right",
+        "center"
+      ]
+    }
+  },
+  "template_250": {
+    "template": "A layered structure of <number> <block_type> layers stacked <direction>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "level"
+      ],
+      "direction": [
+        "upward",
+        "downward"
+      ]
+    }
+  },
+  "template_251": {
+    "template": "A grid of <number> by <number> <shape> cells with each cell labeled <label>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "hexagon",
+        "oval"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_252": {
+    "template": "A chain of <number> <block_type> connected with <connection_type> arrows pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "element",
+        "component",
+        "stage"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ],
+      "direction": [
+        "rightward",
+        "leftward"
+      ]
+    }
+  },
+  "template_253": {
+    "template": "A <grid_size> grid of <shape> with each cell labeled <label>.",
+    "terms": {
+      "grid_size": [
+        "2x2",
+        "3x3",
+        "4x4"
+      ],
+      "shape": [
+        "square",
+        "hexagon",
+        "circle"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C",
+        "alpha, beta, gamma"
+      ]
+    }
+  },
+  "template_254": {
+    "template": "A stack of <number> <block_type> with connections <connection_type>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "segment",
+        "partition"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_255": {
+    "template": "A series of <number> <shape> aligned <direction> with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "ellipse",
+        "rectangle"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_256": {
+    "template": "Layers of <block_type> stacked with <connection_type> arrows between them.",
+    "terms": {
+      "block_type": [
+        "neuron",
+        "module",
+        "filter"
+      ],
+      "connection_type": [
+        "curved",
+        "straight",
+        "angled"
+      ]
+    }
+  },
+  "template_257": {
+    "template": "A sequence of <number> <block_type> elements aligned <direction>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "component",
+        "segment",
+        "unit"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_258": {
+    "template": "A stack of <number> layers, each labeled <label>.",
+    "terms": {
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3",
+        "Layer A",
+        "Layer B",
+        "Layer C"
+      ]
+    }
+  },
+  "template_259": {
+    "template": "A grid of <rows> by <columns> <shape> shapes.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "triangle"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_260": {
+    "template": "A chain of <number> <element_type> elements with labels <label_sequence>.",
+    "terms": {
+      "element_type": [
+        "circle",
+        "box",
+        "ellipse"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "I, II, III"
+      ]
+    }
+  },
+  "template_261": {
+    "template": "A layered stack of <number> <layer_type> layers with each labeled <label>.",
+    "terms": {
+      "layer_type": [
+        "processing",
+        "memory",
+        "storage"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ]
+    }
+  },
+  "template_262": {
+    "template": "A chain of <number> <block_type> connected in <direction> with arrows.",
+    "terms": {
+      "block_type": [
+        "stage",
+        "unit",
+        "section"
+      ],
+      "direction": [
+        "linear",
+        "circular"
+      ]
+    }
+  },
+  "template_263": {
+    "template": "A grid consisting of <number> <shape> elements with labels <label> at each <position>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "center"
+      ]
+    }
+  },
+  "template_264": {
+    "template": "Layers of <block_type> connected by <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "level"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "dashed"
+      ]
+    }
+  },
+  "template_265": {
+    "template": "A stack of <number> <block_type> blocks labeled sequentially <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "node",
+        "layer",
+        "component"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_266": {
+    "template": "Each <block_type> is connected to the next with a <connection_type> line in <direction> direction.",
+    "terms": {
+      "block_type": [
+        "node",
+        "module",
+        "element"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_267": {
+    "template": "A stack of <number> <block_type> blocks arranged vertically with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "component",
+        "segment"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_268": {
+    "template": "A <block_type> followed by a <block_type> linked by a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "element"
+      ],
+      "connection_type": [
+        "straight",
+        "dotted",
+        "zigzag"
+      ]
+    }
+  },
+  "template_269": {
+    "template": "A sequence of <number> <shape> shapes aligned <direction> with labels <label> inside.",
+    "terms": {
+      "shape": [
+        "square",
+        "oval"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C"
+      ]
+    }
+  },
+  "template_270": {
+    "template": "A <block_type> with <label> at <position> connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "component",
+        "module",
+        "segment"
+      ],
+      "label": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "center"
+      ],
+      "connection_type": [
+        "straight",
+        "curved",
+        "angled"
+      ]
+    }
+  },
+  "template_271": {
+    "template": "A <shape> grid with <number> rows and columns, labeled <label_sequence>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "rectangle"
+      ],
+      "number": [
+        "two",
+        "three",
+        "four"
+      ],
+      "label_sequence": [
+        "A1, B1, C1",
+        "X1, Y1, Z1",
+        "1, 2, 3"
+      ]
+    }
+  },
+  "template_272": {
+    "template": "A stack of <block_type> layers with labels <label> aligned <direction>.",
+    "terms": {
+      "block_type": [
+        "memory",
+        "data",
+        "processing"
+      ],
+      "label": [
+        "L1",
+        "L2",
+        "L3"
+      ],
+      "direction": [
+        "vertically",
+        "horizontally"
+      ]
+    }
+  },
+  "template_273": {
+    "template": "Each <block_type> is connected by <connection_type> lines with arrows pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "node",
+        "cell"
+      ],
+      "connection_type": [
+        "dashed",
+        "solid",
+        "double"
+      ],
+      "direction": [
+        "upward",
+        "downward",
+        "sideways"
+      ]
+    }
+  },
+  "template_274": {
+    "template": "A vertical stack of <number> <block_type> layers with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "segment"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "I, II, III"
+      ]
+    }
+  },
+  "template_275": {
+    "template": "A grid of <number> <shape> tiles oriented <direction>.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "triangle",
+        "square"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_276": {
+    "template": "A chain of <number> <block_type> elements linked by <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "node",
+        "component"
+      ],
+      "connection_type": [
+        "curved",
+        "straight",
+        "angled"
+      ]
+    }
+  },
+  "template_277": {
+    "template": "A stack of <number> <block_type> blocks with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "module",
+        "section"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_278": {
+    "template": "A chain of <number> <shape> elements connected with <connection_type> lines.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "connection_type": [
+        "straight",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_279": {
+    "template": "A grid consisting of <rows> rows and <columns> columns of <block_type> blocks.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "unit",
+        "node"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_280": {
+    "template": "A series of <number> <block_type> blocks arranged <direction> with arrows.",
+    "terms": {
+      "block_type": [
+        "node",
+        "component",
+        "unit"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_281": {
+    "template": "Each <shape> element is labeled with <label> and aligned <direction>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_282": {
+    "template": "A <grid_type> grid of <number> <shape> elements labeled <label_sequence>.",
+    "terms": {
+      "grid_type": [
+        "square",
+        "rectangular"
+      ],
+      "shape": [
+        "circle",
+        "square"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_283": {
+    "template": "A chain of <number> <block_type> blocks connected <direction> with <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "layer"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "connection_type": [
+        "curved",
+        "straight",
+        "dashed"
+      ]
+    }
+  },
+  "template_284": {
+    "template": "A <shape> grid with <rows> rows and <columns> columns labeled <label_sequence>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ],
+      "label_sequence": [
+        "A, B, C",
+        "1, 2, 3",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_285": {
+    "template": "Layers of <block_type> stacked vertically with labels <label>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "cell",
+        "module"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ]
+    }
+  },
+  "template_286": {
+    "template": "A chain of <block_type> elements linked in <direction> with <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "node",
+        "unit",
+        "element"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ],
+      "connection_type": [
+        "curved",
+        "straight",
+        "zigzag"
+      ]
+    }
+  },
+  "template_287": {
+    "template": "A <shape> matrix with each element labeled <label> and positioned in <direction>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval",
+        "diamond"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_288": {
+    "template": "A sequence of <number> <shape> elements aligned in a <direction> direction.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "hexagon",
+        "oval"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_289": {
+    "template": "A grid of <rows> by <columns> <block_type> blocks, each labeled <label>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "unit",
+        "component"
+      ],
+      "label": [
+        "1",
+        "2",
+        "3",
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "template_290": {
+    "template": "Each <block_type> is connected to another <block_type> with a <connection_type> line.",
+    "terms": {
+      "block_type": [
+        "node",
+        "element",
+        "vertex"
+      ],
+      "connection_type": [
+        "straight",
+        "dotted",
+        "zigzag"
+      ]
+    }
+  },
+  "template_291": {
+    "template": "An array of <number> <shape> shapes with a label <label> inside.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "diamond",
+        "ellipse"
+      ],
+      "label": [
+        "X",
+        "Y",
+        "Z",
+        "1",
+        "2",
+        "3"
+      ]
+    }
+  },
+  "template_292": {
+    "template": "A sequence of <number> <block_type> blocks with arrows pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "stage",
+        "node",
+        "component",
+        "element"
+      ],
+      "direction": [
+        "right",
+        "down",
+        "left",
+        "up"
+      ]
+    }
+  },
+  "template_293": {
+    "template": "A grid of <number> by <number> <shape> with alternating <color>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "color": [
+        "red, blue",
+        "green, yellow",
+        "black, white"
+      ]
+    }
+  },
+  "template_294": {
+    "template": "Each <element_type> is connected to the next with a <connection_type> line.",
+    "terms": {
+      "element_type": [
+        "node",
+        "block",
+        "module"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_295": {
+    "template": "A <number>-layered structure with each layer labeled <label>.",
+    "terms": {
+      "number": [
+        "two",
+        "three",
+        "four"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_296": {
+    "template": "An array of <number> <shape> elements connected <direction>.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "square",
+        "circle"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_297": {
+    "template": "Three <block_type> blocks are linked in a <connection_type> manner from <direction>.",
+    "terms": {
+      "block_type": [
+        "stage",
+        "component",
+        "section"
+      ],
+      "connection_type": [
+        "linear",
+        "circular"
+      ],
+      "direction": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_298": {
+    "template": "A layered stack of <number> <block_type> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "segment",
+        "slice"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "Alpha, Beta, Gamma"
+      ]
+    }
+  },
+  "template_299": {
+    "template": "A grid of <number> <shape> shapes with alternating colors.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "triangle"
+      ],
+      "number": [
+        "4x4",
+        "5x5",
+        "6x6"
+      ]
+    }
+  },
+  "template_300": {
+    "template": "A diagram with <number> <block_type> blocks aligned <direction> and labeled <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "section",
+        "unit",
+        "part"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "label_sequence": [
+        "X, Y, Z",
+        "1, 2, 3",
+        "A, B, C"
+      ]
+    }
+  },
+  "template_301": {
+    "template": "A <grid_size> grid of <shape> elements, each labeled <label>.",
+    "terms": {
+      "grid_size": [
+        "3x3",
+        "4x4",
+        "5x5"
+      ],
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma",
+        "delta"
+      ]
+    }
+  },
+  "template_302": {
+    "template": "A layer of <number> <shape> shapes stacked <direction> with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "square",
+        "circle"
+      ],
+      "direction": [
+        "upwards",
+        "downwards"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_303": {
+    "template": "A series of <block_type> connected <direction> with <connection_type> arrows.",
+    "terms": {
+      "block_type": [
+        "node",
+        "stage",
+        "layer"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ],
+      "connection_type": [
+        "curved",
+        "straight",
+        "dashed"
+      ]
+    }
+  },
+  "template_304": {
+    "template": "Layered <block_type> blocks stacked <direction> with each having a label <label>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "cell",
+        "layer"
+      ],
+      "direction": [
+        "top-to-bottom",
+        "bottom-to-top"
+      ],
+      "label": [
+        "Alpha",
+        "Beta",
+        "Gamma"
+      ]
+    }
+  },
+  "template_305": {
+    "template": "A chain of <number> <block_type> units linked by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "module",
+        "node",
+        "element"
+      ],
+      "number": [
+        "three",
+        "four",
+        "five"
+      ],
+      "connection_type": [
+        "curved",
+        "straight",
+        "angled"
+      ]
+    }
+  },
+  "template_306": {
+    "template": "A sequence of <number> <block_type> blocks positioned <direction> with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "node",
+        "module",
+        "unit"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_307": {
+    "template": "A <shape> grid with <number> elements in a <direction> arrangement.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "triangle"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_308": {
+    "template": "Each <block_type> is labeled <label> and stacked <direction>.",
+    "terms": {
+      "block_type": [
+        "box",
+        "cell",
+        "unit"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ],
+      "direction": [
+        "vertically",
+        "horizontally"
+      ]
+    }
+  },
+  "template_309": {
+    "template": "Each <block_type> is labeled <label> and positioned <position> in the grid.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "module",
+        "node"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ],
+      "position": [
+        "center",
+        "top-left",
+        "bottom-right"
+      ]
+    }
+  },
+  "template_310": {
+    "template": "A chain of <number> <block_type> elements with arrows pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "stage",
+        "unit",
+        "module"
+      ],
+      "direction": [
+        "right",
+        "down",
+        "left"
+      ]
+    }
+  },
+  "template_311": {
+    "template": "A <shape> grid with <rows> rows and <columns> columns.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  },
+  "template_312": {
+    "template": "Each <block_type> is labeled <label> and arranged in a <direction> line.",
+    "terms": {
+      "block_type": [
+        "element",
+        "unit",
+        "component"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_313": {
+    "template": "A set of <number> <shape> shapes aligned <alignment> with labels <label_sequence>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval",
+        "diamond"
+      ],
+      "alignment": [
+        "center",
+        "left",
+        "right"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_314": {
+    "template": "A sequence of <number> <shape> elements aligned <direction>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval",
+        "hexagon"
+      ],
+      "direction": [
+        "left-to-right",
+        "bottom-up"
+      ]
+    }
+  },
+  "template_315": {
+    "template": "Each <shape> is connected by a <connection_type> line.",
+    "terms": {
+      "shape": [
+        "circle",
+        "triangle",
+        "square"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_316": {
+    "template": "A grid of <number> by <number> <block_type> blocks with labels <label>.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "node",
+        "element"
+      ],
+      "label": [
+        "A1, B1, C1",
+        "1A, 1B, 1C",
+        "X1, Y1, Z1"
+      ]
+    }
+  },
+  "template_317": {
+    "template": "A <block_type> with <number> <shape> nodes connected <direction>.",
+    "terms": {
+      "block_type": [
+        "network",
+        "system",
+        "framework"
+      ],
+      "shape": [
+        "circle",
+        "diamond",
+        "ellipse"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_318": {
+    "template": "A chain of <number> <block_type> elements connected by <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "processor",
+        "filter",
+        "module",
+        "node"
+      ],
+      "connection_type": [
+        "solid",
+        "dotted",
+        "dashed"
+      ]
+    }
+  },
+  "template_319": {
+    "template": "A grid of <rows> by <columns> <shape> cells with labels <label>.",
+    "terms": {
+      "shape": [
+        "square",
+        "hexagon",
+        "circle"
+      ],
+      "label": [
+        "a1, a2, a3",
+        "b1, b2, b3",
+        "c1, c2, c3"
+      ]
+    }
+  },
+  "template_320": {
+    "template": "A sequence of <number> <block_type> blocks oriented <direction>.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "component",
+        "section"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_321": {
+    "template": "A layered diagram with <number> <layer_type> layers each having a <position> label.",
+    "terms": {
+      "layer_type": [
+        "interface",
+        "application",
+        "physical"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_322": {
+    "template": "A <block_type> at <position> linked with arrows pointing <direction>.",
+    "terms": {
+      "block_type": [
+        "module",
+        "section",
+        "unit"
+      ],
+      "position": [
+        "top",
+        "middle",
+        "bottom"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_323": {
+    "template": "A sequence of <number> <shape> shapes, each labeled <label>.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "hexagon",
+        "pentagon"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma"
+      ],
+      "number": [
+        "4",
+        "6",
+        "8"
+      ]
+    }
+  },
+  "template_324": {
+    "template": "A grid of <number> by <number> <shape> elements labeled from <label_start> to <label_end>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "rectangle"
+      ],
+      "label_start": [
+        "A",
+        "1"
+      ],
+      "label_end": [
+        "Z",
+        "9"
+      ],
+      "number": [
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  },
+  "template_325": {
+    "template": "A layered structure with <number> <layer_type> layers, each labeled <label>.",
+    "terms": {
+      "layer_type": [
+        "data",
+        "processing",
+        "network"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ]
+    }
+  },
+  "template_326": {
+    "template": "A grid of <number> x <number> <shape> elements with <label> labels.",
+    "terms": {
+      "shape": [
+        "square",
+        "hexagon",
+        "triangle"
+      ],
+      "label": [
+        "A, B, C",
+        "1, 2, 3",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_327": {
+    "template": "A stack of <number> <shape> shapes, labeled from <position> to <position>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "diamond"
+      ],
+      "position": [
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_328": {
+    "template": "A sequence of <number> <block_type> blocks with labels <label_sequence>.",
+    "terms": {
+      "block_type": [
+        "processor",
+        "filter",
+        "node",
+        "element"
+      ],
+      "label_sequence": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_329": {
+    "template": "A <block_type> connected by <connection_type> arrows in <direction> direction.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "component",
+        "unit"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ],
+      "direction": [
+        "horizontal",
+        "vertical"
+      ]
+    }
+  },
+  "template_330": {
+    "template": "A grid of <number> <shape> elements with <label> in each cell.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "hexagon"
+      ],
+      "label": [
+        "alpha",
+        "beta",
+        "gamma"
+      ]
+    }
+  },
+  "template_331": {
+    "template": "A <shape> array with each element labeled <label>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "label": [
+        "P",
+        "Q",
+        "R",
+        "S"
+      ]
+    }
+  },
+  "template_332": {
+    "template": "Each <block_type> in the grid is labeled <label> and aligned <direction>.",
+    "terms": {
+      "block_type": [
+        "cell",
+        "node",
+        "unit"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "1",
+        "2",
+        "3"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_333": {
+    "template": "A series of <number> <shape> elements arranged <direction> with arrows.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "left-to-right",
+        "top-to-bottom"
+      ]
+    }
+  },
+  "template_334": {
+    "template": "A <block_type> connected to <number> other <block_type> elements with <connection_type> lines.",
+    "terms": {
+      "block_type": [
+        "unit",
+        "component",
+        "segment"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_335": {
+    "template": "A <shape> grid of <number> by <number> with each cell labeled <label>.",
+    "terms": {
+      "shape": [
+        "square",
+        "hexagon",
+        "circle"
+      ],
+      "label": [
+        "1, 2, 3",
+        "A, B, C",
+        "X, Y, Z"
+      ]
+    }
+  },
+  "template_336": {
+    "template": "Layers of <block_type> stacked <direction> with each having a label <label>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "stratum"
+      ],
+      "direction": [
+        "upward",
+        "downward"
+      ],
+      "label": [
+        "Layer 1",
+        "Layer 2",
+        "Layer 3"
+      ]
+    }
+  },
+  "template_337": {
+    "template": "A series of <number> <shape> shapes arranged in a <pattern> pattern.",
+    "terms": {
+      "shape": [
+        "circle",
+        "hexagon",
+        "triangle"
+      ],
+      "pattern": [
+        "grid",
+        "spiral",
+        "linear"
+      ]
+    }
+  },
+  "template_338": {
+    "template": "A stack of <number> <layer_type> layers with labels <label_sequence>.",
+    "terms": {
+      "layer_type": [
+        "neuron",
+        "filter",
+        "stage"
+      ],
+      "label_sequence": [
+        "Layer 1, Layer 2, Layer 3",
+        "Stage A, Stage B, Stage C"
+      ]
+    }
+  },
+  "template_339": {
+    "template": "A grid of <rows>x<columns> <shape> elements labeled <label>.",
+    "terms": {
+      "rows": [
+        "2",
+        "3",
+        "4"
+      ],
+      "columns": [
+        "2",
+        "3",
+        "4"
+      ],
+      "shape": [
+        "rectangle",
+        "square"
+      ],
+      "label": [
+        "P, Q, R",
+        "1, 2, 3",
+        "A, B, C"
+      ]
+    }
+  },
+  "template_340": {
+    "template": "A grid consisting of <number> by <number> <shape> units with <label> labels.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "label": [
+        "numeric",
+        "alphabetic"
+      ]
+    }
+  },
+  "template_341": {
+    "template": "Layers of <block_type> stacked in <direction> order with connections labeled <connection_type>.",
+    "terms": {
+      "block_type": [
+        "layer",
+        "tier",
+        "stratum"
+      ],
+      "direction": [
+        "ascending",
+        "descending"
+      ],
+      "connection_type": [
+        "linear",
+        "dotted",
+        "double"
+      ]
+    }
+  },
+  "template_342": {
+    "template": "A <shape> diagram with elements labeled <label> at <position> positions.",
+    "terms": {
+      "shape": [
+        "circular",
+        "rectangular",
+        "triangular"
+      ],
+      "label": [
+        "P",
+        "Q",
+        "R"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "side"
+      ]
+    }
+  },
+  "template_343": {
+    "template": "Three <block_type> units linked by <connection_type> arrows in a <direction> chain.",
+    "terms": {
+      "block_type": [
+        "processor",
+        "neuron",
+        "cell"
+      ],
+      "connection_type": [
+        "solid",
+        "dashed",
+        "curved"
+      ],
+      "direction": [
+        "linear",
+        "cyclic"
+      ]
+    }
+  }
+}

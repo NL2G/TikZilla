@@ -1,0 +1,30 @@
+{
+  "http://arxiv.org/licenses/nonexclusive-distrib/1.0/": {
+    "papers": 35774,
+    "snippets": 314058
+  },
+  "http://creativecommons.org/licenses/by-nc-sa/4.0/": {
+    "papers": 2614,
+    "snippets": 21761
+  },
+  "http://creativecommons.org/licenses/by-sa/4.0/": {
+    "papers": 1664,
+    "snippets": 14755
+  },
+  "http://creativecommons.org/licenses/by/4.0/": {
+    "papers": 26074,
+    "snippets": 221468
+  },
+  "http://creativecommons.org/publicdomain/zero/1.0/": {
+    "papers": 702,
+    "snippets": 5506
+  },
+  "http://creativecommons.org/licenses/by-nc-nd/4.0/": {
+    "papers": 3700,
+    "snippets": 26684
+  },
+  "NONE": {
+    "papers": 48,
+    "snippets": 237
+  }
+}

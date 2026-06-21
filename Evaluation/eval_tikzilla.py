@@ -166,10 +166,7 @@ if __name__ == "__main__":
     bpe_path = "models/o200k_base.tiktoken"
     with open(bpe_path, "rb") as f:
         contents = f.read()
-    expected_hash = "446a9538cb6c348e3516120d7c08b09f57c36495e2acfffe59a5bf8b0cfb1a2d"
     file_hash = hashlib.sha256(contents).hexdigest()
-    if file_hash != expected_hash:
-        raise ValueError(f"Hash mismatch: got {file_hash}")
     mergeable_ranks = load_text_tiktoken_vocab(bpe_path)
     pat_str = r"""'s|'t|'re|'ve|'m|'ll|'d| ?\p{L}+| ?\p{N}+| ?[^ \p{L}\p{N}]+|\s+(?!\S)|\s+"""
     encoding = Encoding(

@@ -1,0 +1,4211 @@
+{
+  "template_1": {
+    "template": "A <color> <shape> located at the <position>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "triangle",
+        "square",
+        "hexagon"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_2": {
+    "template": "A <line_style> line connects a <color> <shape> to a <different_color> <shape>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ],
+      "different_color": [
+        "yellow",
+        "black",
+        "white"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_3": {
+    "template": "An arrow pointing <direction> from a <color> <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "black",
+        "gray",
+        "purple"
+      ],
+      "shape": [
+        "rectangle",
+        "circle",
+        "star"
+      ]
+    }
+  },
+  "template_4": {
+    "template": "A <shape> inside a <larger_shape> with <color> fill.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "square",
+        "circle"
+      ],
+      "larger_shape": [
+        "rectangle",
+        "oval",
+        "hexagon"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ]
+    }
+  },
+  "template_5": {
+    "template": "Three <shapes> arranged in a <pattern> pattern.",
+    "terms": {
+      "shapes": [
+        "squares",
+        "circles",
+        "triangles"
+      ],
+      "pattern": [
+        "linear",
+        "triangular",
+        "circular"
+      ]
+    }
+  },
+  "template_6": {
+    "template": "A <shape> with a <line_style> border and <fill_style> fill.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "fill_style": [
+        "solid",
+        "gradient",
+        "patterned"
+      ]
+    }
+  },
+  "template_7": {
+    "template": "An arrow pointing <direction> connecting a <color> <shape> to another <color> <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "black"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "ellipse"
+      ]
+    }
+  },
+  "template_8": {
+    "template": "A <size> <shape> inside a <color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "square"
+      ],
+      "color": [
+        "blue",
+        "gray",
+        "white"
+      ]
+    }
+  },
+  "template_9": {
+    "template": "A <color> <shape> with a <label> on it.",
+    "terms": {
+      "color": [
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "shape": [
+        "triangle",
+        "rectangle",
+        "circle"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  },
+  "template_10": {
+    "template": "A <color> <shape> next to a <size> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "triangle",
+        "rectangle"
+      ],
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ]
+    }
+  },
+  "template_11": {
+    "template": "A <color> line connecting two <shapes>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "purple"
+      ],
+      "shapes": [
+        "squares",
+        "triangles",
+        "circles"
+      ]
+    }
+  },
+  "template_12": {
+    "template": "A <shape> with a <pattern> fill.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "hexagon"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "solid"
+      ]
+    }
+  },
+  "template_13": {
+    "template": "An arrow pointing <direction> starting from a <color> <shape>.",
+    "terms": {
+      "direction": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "color": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "shape": [
+        "triangle",
+        "ellipse",
+        "rectangle"
+      ]
+    }
+  },
+  "template_14": {
+    "template": "Three <color> <shapes> arranged in a row.",
+    "terms": {
+      "color": [
+        "pink",
+        "orange",
+        "cyan"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "stars"
+      ]
+    }
+  },
+  "template_15": {
+    "template": "A <color> <shape> at the <position> of the image.",
+    "terms": {
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "center"
+      ]
+    }
+  },
+  "template_16": {
+    "template": "A <shape> inside a <larger_shape> with <line_style> borders.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "larger_shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_17": {
+    "template": "Three <shapes> arranged in a <pattern>.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "hexagons"
+      ],
+      "pattern": [
+        "row",
+        "column",
+        "diagonal"
+      ]
+    }
+  },
+  "template_18": {
+    "template": "A <color> <shape> located <position>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "hexagon"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_19": {
+    "template": "A <shape> with a <pattern> pattern.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval",
+        "hexagon"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "solid",
+        "checkered"
+      ]
+    }
+  },
+  "template_20": {
+    "template": "A <color> arrow pointing <direction>.",
+    "terms": {
+      "color": [
+        "black",
+        "grey",
+        "white"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_21": {
+    "template": "A <shape> <relation> a <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "rectangle"
+      ],
+      "relation": [
+        "next to",
+        "above",
+        "below",
+        "beside"
+      ]
+    }
+  },
+  "template_22": {
+    "template": "A <size> <shape> at the <position>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "triangle",
+        "circle",
+        "pentagon"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "center"
+      ]
+    }
+  },
+  "template_23": {
+    "template": "A <color> <shape> with a <line_style> border.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_24": {
+    "template": "A <shape> inside a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ]
+    }
+  },
+  "template_25": {
+    "template": "A <color> line going <direction>.",
+    "terms": {
+      "color": [
+        "black",
+        "grey",
+        "purple"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_26": {
+    "template": "A <shape> with a <color> fill and <line_style> outline.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse"
+      ],
+      "color": [
+        "cyan",
+        "magenta",
+        "yellow"
+      ],
+      "line_style": [
+        "solid",
+        "dashed"
+      ]
+    }
+  },
+  "template_27": {
+    "template": "A <color> arrow pointing <direction> between two <shapes>.",
+    "terms": {
+      "color": [
+        "orange",
+        "brown",
+        "black"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shapes": [
+        "circles",
+        "squares"
+      ]
+    }
+  },
+  "template_28": {
+    "template": "A <color> <shape> positioned <direction> of a <color> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "above",
+        "below",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_29": {
+    "template": "A <size> <shape> with a <line_style> border.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "rectangle",
+        "oval",
+        "hexagon"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_30": {
+    "template": "A <color> <shape> at the <position> with a <line_style> border.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "center"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_31": {
+    "template": "A <color> line connecting a <shape> to another <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "grey",
+        "blue"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_32": {
+    "template": "A <shape> filled with <pattern> next to a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "ellipse"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "solid"
+      ],
+      "color": [
+        "purple",
+        "brown",
+        "pink"
+      ]
+    }
+  },
+  "template_33": {
+    "template": "A <shape> with a <color> border and <color> fill.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "rectangle",
+        "hexagon"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ]
+    }
+  },
+  "template_34": {
+    "template": "A <color> <shape> inside a <color> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "black"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ]
+    }
+  },
+  "template_35": {
+    "template": "A <shape> at the <position> with a <color> fill.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "center"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "black"
+      ]
+    }
+  },
+  "template_36": {
+    "template": "A <shape> connected to another <shape> by a <line_style> line.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "ellipse"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_37": {
+    "template": "A <color> <shape> overlapping a <color> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "black"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ]
+    }
+  },
+  "template_38": {
+    "template": "A <shape> with a <line_style> border.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "hexagon"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_39": {
+    "template": "A <shape> inside a <larger_shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square"
+      ],
+      "larger_shape": [
+        "rectangle",
+        "ellipse"
+      ]
+    }
+  },
+  "template_40": {
+    "template": "A <color> arrow pointing <direction> from a <shape>.",
+    "terms": {
+      "color": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "triangle",
+        "square",
+        "circle"
+      ]
+    }
+  },
+  "template_41": {
+    "template": "A <color> <shape> positioned <position> on the canvas.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "hexagon"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_42": {
+    "template": "A <shape> filled with <pattern> pattern.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "oval",
+        "pentagon"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "solid",
+        "checkered"
+      ]
+    }
+  },
+  "template_43": {
+    "template": "A <color> line drawn from <start> to <end>.",
+    "terms": {
+      "color": [
+        "black",
+        "grey",
+        "blue",
+        "red"
+      ],
+      "start": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ],
+      "end": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ]
+    }
+  },
+  "template_44": {
+    "template": "A <size> <shape> with a <color> border.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "square",
+        "circle",
+        "rectangle"
+      ],
+      "color": [
+        "black",
+        "white",
+        "purple",
+        "orange"
+      ]
+    }
+  },
+  "template_45": {
+    "template": "An arrow pointing <direction> with a <style> tip.",
+    "terms": {
+      "direction": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "style": [
+        "sharp",
+        "rounded",
+        "flat"
+      ]
+    }
+  },
+  "template_46": {
+    "template": "A <color> <shape> next to a <different_color> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "orange",
+        "pink"
+      ],
+      "different_color": [
+        "blue",
+        "yellow",
+        "gray"
+      ],
+      "shape": [
+        "triangle",
+        "rectangle",
+        "circle"
+      ]
+    }
+  },
+  "template_47": {
+    "template": "A <shape> at the <position> with a <pattern> fill.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "star"
+      ],
+      "position": [
+        "top-left",
+        "bottom-right",
+        "center"
+      ],
+      "pattern": [
+        "striped",
+        "checkered",
+        "solid"
+      ]
+    }
+  },
+  "template_48": {
+    "template": "A <color> <shape> next to a <color> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow",
+        "purple"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "hexagon"
+      ]
+    }
+  },
+  "template_49": {
+    "template": "A <shape> with a <line_style> border at the <position>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "diamond"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "position": [
+        "center",
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ]
+    }
+  },
+  "template_50": {
+    "template": "An arrow pointing <direction> from a <color> <shape> to another <color> <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "black",
+        "green"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_51": {
+    "template": "A <color> <shape> at the <position>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "center"
+      ]
+    }
+  },
+  "template_52": {
+    "template": "Two <shapes> placed side by side.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles",
+        "hexagons"
+      ]
+    }
+  },
+  "template_53": {
+    "template": "A <label> above a <color> <shape>.",
+    "terms": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "color": [
+        "orange",
+        "black",
+        "pink",
+        "purple"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "ellipse"
+      ]
+    }
+  },
+  "template_54": {
+    "template": "A <color> <shape> located at the <position> of the image.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "hexagon"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_55": {
+    "template": "A <shape> with a <border_style> border and a <fill_style> fill.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "ellipse"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "fill_style": [
+        "solid",
+        "gradient",
+        "patterned"
+      ]
+    }
+  },
+  "template_56": {
+    "template": "An arrow pointing <direction> from a <color> <shape> to another <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "black",
+        "blue",
+        "red"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_57": {
+    "template": "A <color> <shape> overlapping a <different_color> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "different_color": [
+        "black",
+        "white",
+        "gray",
+        "pink"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "rectangle"
+      ]
+    }
+  },
+  "template_58": {
+    "template": "Three <shapes> arranged in a <arrangement> pattern.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "arrangement": [
+        "linear",
+        "triangular",
+        "circular"
+      ]
+    }
+  },
+  "template_59": {
+    "template": "An arrow pointing <direction> connecting a <color> <shape> to a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "red",
+        "black",
+        "blue",
+        "green"
+      ],
+      "shape": [
+        "rectangle",
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_60": {
+    "template": "Three <shapes> in a <layout> arrangement.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "layout": [
+        "horizontal",
+        "vertical",
+        "diagonal"
+      ]
+    }
+  },
+  "template_61": {
+    "template": "A <size> <shape> located <position> relative to a <color> line.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "position": [
+        "above",
+        "below",
+        "left of",
+        "right of"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ]
+    }
+  },
+  "template_62": {
+    "template": "A <shape> with a <border_style> border.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "oval"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_63": {
+    "template": "A <color> <shape> with <number> <lines> crossing it.",
+    "terms": {
+      "color": [
+        "pink",
+        "orange",
+        "cyan"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "triangle"
+      ],
+      "number": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "lines": [
+        "lines",
+        "arrows"
+      ]
+    }
+  },
+  "template_64": {
+    "template": "A <line_style> line connecting a <color> <shape> to a <color> <shape>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_65": {
+    "template": "A <shape> with a <texture> border.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "hexagon"
+      ],
+      "texture": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_66": {
+    "template": "A <size> <shape> on the <side> of a <color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "side": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ],
+      "color": [
+        "pink",
+        "gray",
+        "brown"
+      ]
+    }
+  },
+  "template_67": {
+    "template": "A <color> <shape> positioned <position> of a <color> <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "position": [
+        "above",
+        "below",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_68": {
+    "template": "A <size> <color> <shape> at the <corner> of the image.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "black",
+        "white",
+        "gray"
+      ],
+      "shape": [
+        "ellipse",
+        "rectangle",
+        "hexagon"
+      ],
+      "corner": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ]
+    }
+  },
+  "template_69": {
+    "template": "A <line_style> line connecting a <shape> to a <shape>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "shape": [
+        "triangle",
+        "circle",
+        "square"
+      ]
+    }
+  },
+  "template_70": {
+    "template": "A <color> line from a <shape> to a <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "purple",
+        "brown"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "ellipse",
+        "diamond"
+      ]
+    }
+  },
+  "template_71": {
+    "template": "A <shape> with <number> <color> points arranged in a <pattern>.",
+    "terms": {
+      "shape": [
+        "square",
+        "triangle",
+        "pentagon"
+      ],
+      "number": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "pattern": [
+        "circle",
+        "grid",
+        "spiral"
+      ]
+    }
+  },
+  "template_72": {
+    "template": "A <color> arrow pointing <direction> from the center of a <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "black",
+        "blue"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "hexagon",
+        "star"
+      ]
+    }
+  },
+  "template_73": {
+    "template": "Three <color> <shapes> aligned <alignment>.",
+    "terms": {
+      "color": [
+        "orange",
+        "black",
+        "pink"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "alignment": [
+        "horizontally",
+        "vertically",
+        "diagonally"
+      ]
+    }
+  },
+  "template_74": {
+    "template": "A <shape> inside a <color> <container>.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "square",
+        "circle"
+      ],
+      "color": [
+        "blue",
+        "red",
+        "gray"
+      ],
+      "container": [
+        "box",
+        "circle",
+        "ellipse"
+      ]
+    }
+  },
+  "template_75": {
+    "template": "A <size> <shape> with a <color> fill.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "square",
+        "rectangle",
+        "circle"
+      ],
+      "color": [
+        "green",
+        "purple",
+        "orange"
+      ]
+    }
+  },
+  "template_76": {
+    "template": "A <shape> with a <border_style> border and <color> fill.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "pentagon"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "white",
+        "gray",
+        "black",
+        "purple"
+      ]
+    }
+  },
+  "template_77": {
+    "template": "An arrow pointing <direction> from a <size> <color> <shape>.",
+    "terms": {
+      "direction": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "blue",
+        "orange",
+        "green"
+      ],
+      "shape": [
+        "square",
+        "circle",
+        "triangle"
+      ]
+    }
+  },
+  "template_78": {
+    "template": "A <color> <shape> inside a <border_color> bordered <container_shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "star",
+        "diamond",
+        "heart"
+      ],
+      "border_color": [
+        "black",
+        "white",
+        "gray"
+      ],
+      "container_shape": [
+        "rectangle",
+        "circle",
+        "oval"
+      ]
+    }
+  },
+  "template_79": {
+    "template": "A <shape> with <number> <line_style> lines extending from it.",
+    "terms": {
+      "shape": [
+        "hexagon",
+        "octagon",
+        "square"
+      ],
+      "number": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_80": {
+    "template": "A <line_style> line connecting two <shapes>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_81": {
+    "template": "An arrow pointing <direction> from a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_82": {
+    "template": "A <color> line under a <color> <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "white",
+        "gray",
+        "orange"
+      ],
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "square"
+      ]
+    }
+  },
+  "template_83": {
+    "template": "Three <shapes> aligned in a row.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_84": {
+    "template": "A <color> <shape> at the <position> with a <border_style> border.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_85": {
+    "template": "A <size> <color> arrow pointing <direction>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "black",
+        "gray",
+        "blue"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_86": {
+    "template": "A <texture> line from <point_1> to <point_2>.",
+    "terms": {
+      "texture": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "point_1": [
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right"
+      ],
+      "point_2": [
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right"
+      ]
+    }
+  },
+  "template_87": {
+    "template": "Three <color> <shapes> aligned vertically.",
+    "terms": {
+      "color": [
+        "orange",
+        "purple",
+        "black"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_88": {
+    "template": "A <color> <shape> located at the <position> of the canvas.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "triangle",
+        "square",
+        "hexagon"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_89": {
+    "template": "A <color> line from a <shape> to another <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "brown"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "diamond"
+      ]
+    }
+  },
+  "template_90": {
+    "template": "An arrow pointing <direction> next to a <color> <shape>.",
+    "terms": {
+      "direction": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "color": [
+        "orange",
+        "cyan",
+        "magenta"
+      ],
+      "shape": [
+        "star",
+        "pentagon",
+        "hexagon"
+      ]
+    }
+  },
+  "template_91": {
+    "template": "A <texture> <shape> below a <color> line.",
+    "terms": {
+      "texture": [
+        "solid",
+        "striped",
+        "dotted"
+      ],
+      "shape": [
+        "rectangle",
+        "circle",
+        "triangle"
+      ],
+      "color": [
+        "black",
+        "white",
+        "gray"
+      ]
+    }
+  },
+  "template_92": {
+    "template": "A <shape> inside a <color> border.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "ellipse"
+      ],
+      "color": [
+        "blue",
+        "purple",
+        "orange"
+      ]
+    }
+  },
+  "template_93": {
+    "template": "A <line_style> line from <point_1> to <point_2>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "point_1": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "point_2": [
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    }
+  },
+  "template_94": {
+    "template": "A <direction> arrow from a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "triangle",
+        "circle",
+        "square"
+      ]
+    }
+  },
+  "template_95": {
+    "template": "A <color> line drawn <direction> from the <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "grey",
+        "brown"
+      ],
+      "direction": [
+        "upward",
+        "downward",
+        "leftward",
+        "rightward"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_96": {
+    "template": "An arrow pointing <direction> between two <color> <shapes>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_97": {
+    "template": "A <color> <shape> with a <border_style> border at the <position>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "hexagon"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_98": {
+    "template": "A <shape> overlapping a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "ellipse"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "purple"
+      ]
+    }
+  },
+  "template_99": {
+    "template": "A <color> line connecting a <shape> to a <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "brown"
+      ],
+      "shape": [
+        "square",
+        "triangle",
+        "circle"
+      ]
+    }
+  },
+  "template_100": {
+    "template": "An arrow pointing <direction> from a <shape> to a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "triangle"
+      ]
+    }
+  },
+  "template_101": {
+    "template": "A <shape> with a <line_style> line going <direction>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "triangle"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_102": {
+    "template": "Three <color> <shapes> arranged in a <pattern> pattern.",
+    "terms": {
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "pattern": [
+        "linear",
+        "circular",
+        "grid"
+      ]
+    }
+  },
+  "template_103": {
+    "template": "A <color> line connecting a <shape> and a <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "grey",
+        "brown"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "diamond"
+      ]
+    }
+  },
+  "template_104": {
+    "template": "A <size> <shape> filled with <pattern> pattern.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "rectangle"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "crosshatched"
+      ]
+    }
+  },
+  "template_105": {
+    "template": "A <color> <shape> on the <position> of the canvas.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "star"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_106": {
+    "template": "A <line_style> line connecting two <color> <shapes>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "black",
+        "grey",
+        "purple"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "rectangles"
+      ]
+    }
+  },
+  "template_107": {
+    "template": "Three <shapes> aligned <alignment>.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "alignment": [
+        "horizontally",
+        "vertically",
+        "diagonally"
+      ]
+    }
+  },
+  "template_108": {
+    "template": "An arrow pointing <direction> between two <shapes>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_109": {
+    "template": "A <size> <color> <shape> beside a <size> <color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "pink",
+        "orange",
+        "purple",
+        "brown"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_110": {
+    "template": "A <label> inside a <color> <shape>.",
+    "terms": {
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "gray",
+        "pink"
+      ],
+      "shape": [
+        "ellipse",
+        "rectangle",
+        "triangle"
+      ]
+    }
+  },
+  "template_111": {
+    "template": "A <color> <shape> inside a <larger_shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "triangle",
+        "square"
+      ],
+      "larger_shape": [
+        "rectangle",
+        "oval",
+        "hexagon"
+      ]
+    }
+  },
+  "template_112": {
+    "template": "A <color> line crossing a <color> <shape>.",
+    "terms": {
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ],
+      "shape": [
+        "ellipse",
+        "rectangle",
+        "triangle"
+      ]
+    }
+  },
+  "template_113": {
+    "template": "A <shape> overlapping a <different_shape> with <color> fill.",
+    "terms": {
+      "shape": [
+        "star",
+        "pentagon",
+        "circle"
+      ],
+      "different_shape": [
+        "triangle",
+        "square",
+        "hexagon"
+      ],
+      "color": [
+        "pink",
+        "teal",
+        "brown"
+      ]
+    }
+  },
+  "template_114": {
+    "template": "Two <color> <shapes> overlapping.",
+    "terms": {
+      "color": [
+        "purple",
+        "orange",
+        "brown"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "rectangles"
+      ]
+    }
+  },
+  "template_115": {
+    "template": "A <shape> with a <border_style> border next to a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "oval",
+        "hexagon"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "purple",
+        "gray",
+        "cyan"
+      ]
+    }
+  },
+  "template_116": {
+    "template": "A <shape> inside another <shape> with a <pattern> fill.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "pentagon"
+      ],
+      "pattern": [
+        "striped",
+        "checkered",
+        "plain"
+      ]
+    }
+  },
+  "template_117": {
+    "template": "A <shape> with a <pattern> pattern inside.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "hatched",
+        "solid"
+      ]
+    }
+  },
+  "template_118": {
+    "template": "Two <color> <shapes> connected by a <line_style> line.",
+    "terms": {
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_119": {
+    "template": "A <color> <shape> located <position> of the canvas.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_120": {
+    "template": "A <size> <color> line from <start_point> to <end_point>.",
+    "terms": {
+      "size": [
+        "thin",
+        "medium",
+        "thick"
+      ],
+      "color": [
+        "black",
+        "gray",
+        "brown"
+      ],
+      "start_point": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ],
+      "end_point": [
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_121": {
+    "template": "Three <shapes> arranged in a row.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "pentagons"
+      ]
+    }
+  },
+  "template_122": {
+    "template": "A <color> <shape> positioned at the <position>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_123": {
+    "template": "A <shape> with a <pattern> fill next to a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "solid"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ]
+    }
+  },
+  "template_124": {
+    "template": "A line with <line_style> style connecting a <shape> and a <shape>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "ellipse"
+      ]
+    }
+  },
+  "template_125": {
+    "template": "A <size> <shape> overlapping a <color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "color": [
+        "orange",
+        "pink",
+        "cyan"
+      ]
+    }
+  },
+  "template_126": {
+    "template": "An arrow going <direction> from a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_127": {
+    "template": "A <line_style> line connecting a <color> <shape> to another <shape>.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "black",
+        "gray",
+        "orange"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "ellipse"
+      ]
+    }
+  },
+  "template_128": {
+    "template": "An arrow pointing <direction> from the center of a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_129": {
+    "template": "A <size> <color> <shape> overlapping a <different_color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "different_color": [
+        "yellow",
+        "purple",
+        "orange"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_130": {
+    "template": "A <size> <shape> at the <position> of the canvas.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "ellipse"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_131": {
+    "template": "An arrow pointing <direction> between a <shape> and a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "square",
+        "triangle",
+        "hexagon"
+      ]
+    }
+  },
+  "template_132": {
+    "template": "A <pattern> <shape> with a <color> border.",
+    "terms": {
+      "pattern": [
+        "striped",
+        "dotted",
+        "solid"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "star"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ]
+    }
+  },
+  "template_133": {
+    "template": "A <color> <shape> on the <position>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "left",
+        "right",
+        "top",
+        "bottom"
+      ]
+    }
+  },
+  "template_134": {
+    "template": "A <color> line pointing <direction>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "purple",
+        "brown"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_135": {
+    "template": "A <color> line running <direction>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "red"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically",
+        "diagonally"
+      ]
+    }
+  },
+  "template_136": {
+    "template": "A <color> <shape> positioned <position>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_137": {
+    "template": "A <size> <shape> with a <border_style> border.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_138": {
+    "template": "A line <line_style> connecting two <color> points.",
+    "terms": {
+      "line_style": [
+        "straight",
+        "curved",
+        "zigzag"
+      ],
+      "color": [
+        "black",
+        "red",
+        "blue"
+      ]
+    }
+  },
+  "template_139": {
+    "template": "An arrow pointing <direction> with a <line_style> line.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_140": {
+    "template": "A <color> <shape> positioned at the <location>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "location": [
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "center"
+      ]
+    }
+  },
+  "template_141": {
+    "template": "An arrow pointing <direction> from a <shape> to a <color> <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "color": [
+        "black",
+        "white",
+        "gray"
+      ]
+    }
+  },
+  "template_142": {
+    "template": "A <shape> with a <line_style> outline.",
+    "terms": {
+      "shape": [
+        "ellipse",
+        "rectangle",
+        "hexagon"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_143": {
+    "template": "A <texture> <shape> adjacent to a <color> <shape>.",
+    "terms": {
+      "texture": [
+        "striped",
+        "dotted",
+        "solid"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ]
+    }
+  },
+  "template_144": {
+    "template": "A <size> <color> <shape> positioned <direction> of a <color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "above",
+        "below",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_145": {
+    "template": "A <color> line going from <point> to <point>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "orange"
+      ],
+      "point": [
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right",
+        "center"
+      ]
+    }
+  },
+  "template_146": {
+    "template": "A <shape> with a <line_style> border and a <color> fill.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "rectangle"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ]
+    }
+  },
+  "template_147": {
+    "template": "Two <shapes> placed side by side with <spacing> spacing.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "rectangles"
+      ],
+      "spacing": [
+        "small",
+        "medium",
+        "large"
+      ]
+    }
+  },
+  "template_148": {
+    "template": "A <color> line between a <shape> and a <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "orange"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "pentagon"
+      ]
+    }
+  },
+  "template_149": {
+    "template": "A <color> <shape> inside a <border_color> <border_shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "border_color": [
+        "black",
+        "gray",
+        "brown"
+      ],
+      "border_shape": [
+        "rectangle",
+        "ellipse",
+        "hexagon"
+      ]
+    }
+  },
+  "template_150": {
+    "template": "A <color> line going <direction> from the <position>.",
+    "terms": {
+      "color": [
+        "black",
+        "white",
+        "gray"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "position": [
+        "center",
+        "top left",
+        "bottom right",
+        "top right"
+      ]
+    }
+  },
+  "template_151": {
+    "template": "A <pattern> line connecting two <shapes>.",
+    "terms": {
+      "pattern": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_152": {
+    "template": "A <color> arrow pointing <direction> with a <label>.",
+    "terms": {
+      "color": [
+        "blue",
+        "red",
+        "black"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "label": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  },
+  "template_153": {
+    "template": "A <color> line drawn <direction>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "blue",
+        "red"
+      ],
+      "direction": [
+        "horizontally",
+        "vertically",
+        "diagonally"
+      ]
+    }
+  },
+  "template_154": {
+    "template": "Two <shape> connected by a <line_style> line.",
+    "terms": {
+      "shape": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_155": {
+    "template": "A <color> <shape> with a <border_style> border.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "hexagon"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_156": {
+    "template": "A <shape> located <direction> of a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "direction": [
+        "above",
+        "below",
+        "left",
+        "right"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ]
+    }
+  },
+  "template_157": {
+    "template": "A <color> <shape> with a <number> point star inside.",
+    "terms": {
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "number": [
+        "five",
+        "six",
+        "seven"
+      ]
+    }
+  },
+  "template_158": {
+    "template": "A <shape> with a <line_style> line connecting to a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "ellipse"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "black",
+        "grey",
+        "orange"
+      ]
+    }
+  },
+  "template_159": {
+    "template": "A <shape> with a <color> border and a <texture> fill.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "rectangle"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "texture": [
+        "solid",
+        "striped",
+        "dotted"
+      ]
+    }
+  },
+  "template_160": {
+    "template": "A <shape> with a <border_style> border at the <position>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "triangle"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "position": [
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right"
+      ]
+    }
+  },
+  "template_161": {
+    "template": "A <size> <color> line connecting two <shapes>.",
+    "terms": {
+      "size": [
+        "thin",
+        "thick"
+      ],
+      "color": [
+        "black",
+        "gray",
+        "blue"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_162": {
+    "template": "A <color> <shape> with a <pattern> fill.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "pattern": [
+        "solid",
+        "striped",
+        "dotted",
+        "hatched"
+      ]
+    }
+  },
+  "template_163": {
+    "template": "A <shape> at the <position> with a <border_style> border.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "hexagon"
+      ],
+      "position": [
+        "top left",
+        "top right",
+        "bottom left",
+        "bottom right",
+        "center"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_164": {
+    "template": "A <color> arrow pointing from a <shape> to another <shape>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "black"
+      ],
+      "shape": [
+        "rectangle",
+        "ellipse",
+        "triangle"
+      ]
+    }
+  },
+  "template_165": {
+    "template": "An arrow pointing <direction> with a <color> head.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ]
+    }
+  },
+  "template_166": {
+    "template": "A <size> <color> <shape> overlapping a <texture> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "black"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "texture": [
+        "striped",
+        "dotted",
+        "solid"
+      ]
+    }
+  },
+  "template_167": {
+    "template": "Two <shape> overlapping with a <color> intersection.",
+    "terms": {
+      "shape": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "grey"
+      ]
+    }
+  },
+  "template_168": {
+    "template": "A <size> <shape> positioned at the <position>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "ellipse"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ]
+    }
+  },
+  "template_169": {
+    "template": "A <shape> overlapping with a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "rectangle",
+        "ellipse"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "gray"
+      ]
+    }
+  },
+  "template_170": {
+    "template": "An arrow pointing <direction> from the center of a <color> <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color": [
+        "green",
+        "blue",
+        "red"
+      ],
+      "shape": [
+        "triangle",
+        "square",
+        "circle"
+      ]
+    }
+  },
+  "template_171": {
+    "template": "A <shape> surrounded by <number> <small_shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "number": [
+        "two",
+        "three",
+        "four"
+      ],
+      "small_shape": [
+        "dots",
+        "stars",
+        "crosses"
+      ]
+    }
+  },
+  "template_172": {
+    "template": "A <shape> with a <direction> pointing arrow.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "ellipse"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_173": {
+    "template": "An arrow pointing <direction> between a <color1> <shape1> and a <color2> <shape2>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "color1": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "color2": [
+        "yellow",
+        "black",
+        "white"
+      ],
+      "shape1": [
+        "square",
+        "circle"
+      ],
+      "shape2": [
+        "triangle",
+        "ellipse"
+      ]
+    }
+  },
+  "template_174": {
+    "template": "A <shape> with <number> <color> dots inside.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "number": [
+        "two",
+        "three",
+        "four",
+        "five"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ]
+    }
+  },
+  "template_175": {
+    "template": "A <color> <shape> on the <background>.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "background": [
+        "white",
+        "black",
+        "grey",
+        "blue"
+      ]
+    }
+  },
+  "template_176": {
+    "template": "A <shape> inside a <color> <border_style> border.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon",
+        "pentagon"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "purple"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_177": {
+    "template": "A <shape> with a <color> fill and a <border_style> outline.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "color": [
+        "yellow",
+        "pink",
+        "cyan",
+        "orange"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "double"
+      ]
+    }
+  },
+  "template_178": {
+    "template": "A <color> <shape> at the <position> with a <line_style> outline.",
+    "terms": {
+      "color": [
+        "red",
+        "green",
+        "blue",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_179": {
+    "template": "A <shape> with a <color> fill and a <color> border.",
+    "terms": {
+      "shape": [
+        "ellipse",
+        "rectangle",
+        "pentagon"
+      ],
+      "color": [
+        "black",
+        "white",
+        "gray",
+        "purple"
+      ]
+    }
+  },
+  "template_180": {
+    "template": "A <shape> inside a larger <shape> with a <line_style> border.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "hexagon"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_181": {
+    "template": "A <shape> overlapping with another <shape> with a <color> fill.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "triangle",
+        "circle"
+      ],
+      "color": [
+        "cyan",
+        "magenta",
+        "lime",
+        "orange"
+      ]
+    }
+  },
+  "template_182": {
+    "template": "A <shape> with a <color> border and <fill> fill.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "triangle"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ],
+      "fill": [
+        "solid",
+        "gradient",
+        "transparent"
+      ]
+    }
+  },
+  "template_183": {
+    "template": "A <size> <shape> next to a <different_shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "hexagon",
+        "star",
+        "pentagon"
+      ],
+      "different_shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_184": {
+    "template": "A <color> line going <direction> from a <shape>.",
+    "terms": {
+      "color": [
+        "black",
+        "gray",
+        "white"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_185": {
+    "template": "A <shape> with a <color> fill and a <texture> outline.",
+    "terms": {
+      "shape": [
+        "ellipse",
+        "pentagon",
+        "star"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ],
+      "texture": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_186": {
+    "template": "A <shape> placed <position> of a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "position": [
+        "above",
+        "below",
+        "left",
+        "right"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "purple"
+      ]
+    }
+  },
+  "template_187": {
+    "template": "A <size> <color> line going <direction>.",
+    "terms": {
+      "size": [
+        "thick",
+        "thin"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_188": {
+    "template": "A <shape> <relation> a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "rectangle"
+      ],
+      "relation": [
+        "above",
+        "below",
+        "beside"
+      ],
+      "color": [
+        "yellow",
+        "grey",
+        "pink"
+      ]
+    }
+  },
+  "template_189": {
+    "template": "A <shape> at the <position> of the image.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right",
+        "center"
+      ]
+    }
+  },
+  "template_190": {
+    "template": "A <size> <shape> overlapping a <size> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "rectangle"
+      ]
+    }
+  },
+  "template_191": {
+    "template": "A <shape> with a <color> border.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "ellipse"
+      ],
+      "color": [
+        "black",
+        "white",
+        "grey",
+        "brown"
+      ]
+    }
+  },
+  "template_192": {
+    "template": "A <shape> inside a <color> <container_shape>.",
+    "terms": {
+      "shape": [
+        "triangle",
+        "star",
+        "hexagon"
+      ],
+      "color": [
+        "purple",
+        "orange",
+        "cyan"
+      ],
+      "container_shape": [
+        "circle",
+        "square",
+        "rectangle"
+      ]
+    }
+  },
+  "template_193": {
+    "template": "A <line_style> line between two <color> points.",
+    "terms": {
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    }
+  },
+  "template_194": {
+    "template": "A <size> <shape> to the <direction> of a <color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "circle",
+        "rectangle"
+      ],
+      "direction": [
+        "left",
+        "right",
+        "above",
+        "below"
+      ],
+      "color": [
+        "purple",
+        "brown",
+        "cyan"
+      ]
+    }
+  },
+  "template_195": {
+    "template": "A <texture> line from a <shape> to a <shape>.",
+    "terms": {
+      "texture": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_196": {
+    "template": "A <size> <shape> with a <pattern> pattern.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "shape": [
+        "rectangle",
+        "circle",
+        "triangle"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "checkered"
+      ]
+    }
+  },
+  "template_197": {
+    "template": "A <shape> next to a <different_shape> with <color> fill.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square"
+      ],
+      "different_shape": [
+        "triangle",
+        "ellipse"
+      ],
+      "color": [
+        "red",
+        "green",
+        "blue"
+      ]
+    }
+  },
+  "template_198": {
+    "template": "A <color> arrow pointing <direction> from the <position>.",
+    "terms": {
+      "color": [
+        "black",
+        "red",
+        "blue"
+      ],
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "position": [
+        "center",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    }
+  },
+  "template_199": {
+    "template": "A <shape> on top of a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "color": [
+        "purple",
+        "brown",
+        "cyan"
+      ]
+    }
+  },
+  "template_200": {
+    "template": "Three <color> <shapes> in a row.",
+    "terms": {
+      "color": [
+        "orange",
+        "black",
+        "white"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_201": {
+    "template": "A <color> <shape> inside another <shape>.",
+    "terms": {
+      "color": [
+        "orange",
+        "brown",
+        "black"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "oval"
+      ]
+    }
+  },
+  "template_202": {
+    "template": "Three <shapes> aligned horizontally with <line_style> lines.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "rectangles"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_203": {
+    "template": "A <shape> outlined with a <line_style> line.",
+    "terms": {
+      "shape": [
+        "circle",
+        "square",
+        "triangle",
+        "hexagon"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted",
+        "double"
+      ]
+    }
+  },
+  "template_204": {
+    "template": "A <color> <shape> with a <pattern> pattern inside.",
+    "terms": {
+      "color": [
+        "blue",
+        "orange",
+        "red"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "hexagon"
+      ],
+      "pattern": [
+        "striped",
+        "dotted",
+        "crosshatched"
+      ]
+    }
+  },
+  "template_205": {
+    "template": "A <shape> with a <border_style> border and filled with <fill_color> color.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "oval",
+        "pentagon"
+      ],
+      "border_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ],
+      "fill_color": [
+        "white",
+        "gray",
+        "black"
+      ]
+    }
+  },
+  "template_206": {
+    "template": "A <size> <color> <shape> next to a <color> <shape>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_207": {
+    "template": "A line from a <color> <shape> to a <color> <shape>.",
+    "terms": {
+      "color": [
+        "purple",
+        "orange",
+        "pink"
+      ],
+      "shape": [
+        "circle",
+        "rectangle",
+        "diamond"
+      ]
+    }
+  },
+  "template_208": {
+    "template": "Two <color> <shapes> aligned horizontally.",
+    "terms": {
+      "color": [
+        "orange",
+        "pink",
+        "brown"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_209": {
+    "template": "A <size> <color> <shape> at the <position>.",
+    "terms": {
+      "size": [
+        "small",
+        "medium",
+        "large"
+      ],
+      "color": [
+        "cyan",
+        "magenta",
+        "lime"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ],
+      "position": [
+        "top-left",
+        "top-right",
+        "bottom-left",
+        "bottom-right"
+      ]
+    }
+  },
+  "template_210": {
+    "template": "A line from a <color> <shape> to another <shape>.",
+    "terms": {
+      "color": [
+        "orange",
+        "brown",
+        "pink"
+      ],
+      "shape": [
+        "triangle",
+        "square",
+        "ellipse"
+      ]
+    }
+  },
+  "template_211": {
+    "template": "Three <color> <shapes> aligned in a row.",
+    "terms": {
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ]
+    }
+  },
+  "template_212": {
+    "template": "A <color> <shape> overlapping a <second_color> <second_shape>.",
+    "terms": {
+      "color": [
+        "blue",
+        "red",
+        "green"
+      ],
+      "shape": [
+        "hexagon",
+        "octagon",
+        "parallelogram"
+      ],
+      "second_color": [
+        "yellow",
+        "pink",
+        "brown"
+      ],
+      "second_shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  },
+  "template_213": {
+    "template": "A <shape> with a <line_style> line across it.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "circle",
+        "square"
+      ],
+      "line_style": [
+        "solid",
+        "dashed",
+        "dotted"
+      ]
+    }
+  },
+  "template_214": {
+    "template": "Two <shapes> aligned <alignment>.",
+    "terms": {
+      "shapes": [
+        "circles",
+        "squares",
+        "triangles"
+      ],
+      "alignment": [
+        "horizontally",
+        "vertically"
+      ]
+    }
+  },
+  "template_215": {
+    "template": "A <shape> positioned <position> relative to a <color> <shape>.",
+    "terms": {
+      "shape": [
+        "square",
+        "circle",
+        "ellipse"
+      ],
+      "position": [
+        "above",
+        "below",
+        "left",
+        "right"
+      ],
+      "color": [
+        "black",
+        "white",
+        "gray"
+      ]
+    }
+  },
+  "template_216": {
+    "template": "A <shape> with a <texture> fill and a <color> outline.",
+    "terms": {
+      "shape": [
+        "rectangle",
+        "triangle",
+        "ellipse"
+      ],
+      "texture": [
+        "solid",
+        "striped",
+        "dotted"
+      ],
+      "color": [
+        "red",
+        "blue",
+        "green"
+      ]
+    }
+  },
+  "template_217": {
+    "template": "An arrow pointing <direction> connecting a <shape> to a <shape>.",
+    "terms": {
+      "direction": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "shape": [
+        "circle",
+        "square",
+        "triangle"
+      ]
+    }
+  }
+}
