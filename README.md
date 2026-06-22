@@ -79,7 +79,7 @@ python Training/train_tikzilla_rl.py
 
 ## Citation
 
-If TikZila have been beneficial for your research or applications, we kindly request you to acknowledge this by citing them as follows:
+If TikZilla has been beneficial for your research or applications, we kindly request you to acknowledge this by citing it as follows:
 
 ```bibtex
 @inproceedings{greisinger2026tikzilla,
